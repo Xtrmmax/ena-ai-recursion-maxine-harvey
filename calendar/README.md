@@ -1,31 +1,24 @@
-# Calendar Project
+# Calendar Engine
 
 ## Overview
-From **Mar–Jun 2025**, I built and completed a working calendar engine in Python.  
-Unlike the Gregorian calendar, this system required multiple interlocking cycles and exceptions, which made it much more complex. I had to build each part separately, test it, and then stitch them together so they functioned as one system. This was the most technically challenging project I’ve completed.
+From **March–June 2025**, I built a custom calendar engine as my second major technical project.  
+Unlike the Gregorian calendar, this system required **at least 10 interdependent mathematical mechanisms** — such as cyclical offsets, modular resets, leap year adjustments, time-zone conversions, and exception handling for gap days.  
 
-The calendar system encodes at least **10 different mathematical mechanisms** (cyclical offsets, modular resets, leap year adjustments, time zone conversions, exception handling for gap days, etc.). Each module had to be built, tested, and integrated before the system worked end-to-end. Unlike the Gregorian calendar, there’s no single linear formula — every piece is interdependent, so debugging required solving it one layer at a time.
+Each mechanism had to be coded, tested, and debugged in layers until the system worked end-to-end.  
+This project gave me the confidence to tackle complex, deterministic systems and sharpened the coding/debugging skills I now apply back to fine-tuning.
 
-## What I Did
-- Encoded repeating cycles of years, days, and glyphs using modular arithmetic  
-- Implemented offsets and lookup tables for groups of 20-day sequences  
-- Added leap year corrections to keep the math aligned  
-- Built special handling for “gap days” that break the cycle and restart it  
-- Used precise hour/minute boundaries to determine exact year transitions  
-- Integrated time zone normalization and DST error handling  
-- Mapped final dates to multiple layers of traits
+## What’s Here
+- `calendar_engine.py` → core Python code  
+- `/datasets` → simplified JSON input files used by the engine  
 
 ## Results
-- Calendar engine produces accurate results across centuries  
-- Proved I could solve a complex, non-linear mathematical system end-to-end  
-- Gave me the confidence to return to fine-tuning with stronger vibe coding skills  
-
-## Extension: Bitcoin Price Predictor
-- In **Jul–Aug 2025**, I extended this system into a **manual Excel version** that compared calendar cycles Bitcoin price history  
-- This was not coded in Python, but served as a practical proof of how the model could integrate with real-world datasets  
+- Completed a fully working calendar system with deterministic outputs.  
+- Debugged across multiple interlocking layers (each piece depended on the last).  
+- Extended the model in **Jul–Aug 2025** into a **Bitcoin price movement predictor** (manual Excel prototype for now).  
 
 ## Reflection
-- **Mar–Jun 2025:** Completed the calendar project (first fully working system coded on my own)  
-- **Jul–Aug 2025:** Applied it manually to Bitcoin investing as a predictor  
-- Next: code the Bitcoin predictor and unify it with my fine-tuning work  
+This was by far the most challenging part of my technical journey so far. The experience forced me to work in modules, integrate them carefully, and debug systematically. It shifted how I approach coding and gave me the foundation I now bring back into AI fine-tuning.  
 
+## Next Steps
+- Code the Bitcoin predictor (currently a manual Excel workflow).  
+- Integrate calendar outputs into training datasets for future fine-tuned models.  
