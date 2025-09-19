@@ -1,0 +1,204 @@
+{
+    "solar_wave_glyphs": [
+      {
+        "solar_wave_glyph": "Crocodile",
+        "direction": "East",
+        "core_energy": ["Abundance"],
+        "strengths": ["Attracts prosperity", "Connected to earth", "Nurturing", "Trustworthy"],
+        "challenges": ["Act slowly", "Insecurity", "Physical health issues"],
+        "direction_core_energy": ["Good luck"],
+        "direction_strengths": ["Good fortune", "Blessings"],
+        "direction_challenges": ["Complacency", "Anxiety from challenges"]
+      },
+      {
+        "solar_wave_glyph": "Wind",
+        "direction": "North",
+        "core_energy": ["Change and renewal"],
+        "strengths": ["Purification", "Resilience", "Adaptive wisdom"],
+        "challenges": ["Tragic cycles", "Karmic obstacles", "Unpredictable path"],
+        "direction_core_energy": ["Ancestral influence"],
+        "direction_strengths": ["Wisdom from challenges", "Ancestral wisdom"],
+        "direction_challenges": ["Tough life challenges", "Destructive ancestral patterns"]
+      },
+      {
+        "solar_wave_glyph": "House",
+        "direction": "West",
+        "core_energy": ["Tuning fork"],
+        "strengths": ["Shadow healing", "Grounded nurturing", "Emotional healing"],
+        "challenges": ["Highly internalized", "Relationship strain", "Health issues", "Depression"],
+        "direction_core_energy": ["Setbacks", "Loss", "Destabilization"],
+        "direction_strengths": ["Letting go"],
+        "direction_challenges": ["Persistent loss"]
+      },
+      {
+        "solar_wave_glyph": "Lizard",
+        "direction": "South",
+        "core_energy": ["Sexual energy"],
+        "strengths": ["Charismatic", "Creative", "Leadership potential", "Healing energy"],
+        "challenges": ["Appearance obsession", "Relationship struggles", "Drama creation", "Risky behavior"],
+        "direction_core_energy": ["Will and discipline"],
+        "direction_strengths": ["Creating opportunities", "Removing barriers"],
+        "direction_challenges": ["Focus surface problems"]
+      },
+      {
+        "solar_wave_glyph": "Snake",
+        "direction": "East",
+        "core_energy": ["Energy"],
+        "strengths": ["Healing self and others", "Medicine", "Spiritual growth", "Transformation", "Renewal", "Wisdom"],
+        "challenges": ["Health issues", "Abundance struggles", "Relationship instability", "Life challenges"],
+        "direction_core_energy": ["Good luck"],
+        "direction_strengths": ["Good fortune", "Blessings"],
+        "direction_challenges": ["Complacency", "Anxiety from challenges"]
+      },
+      {
+        "solar_wave_glyph": "Death",
+        "direction": "North",
+        "core_energy": ["Change", "Transformation"],
+        "strengths": ["Navigating change", "Spiritual growth", "Guiding others transformation", "Lucid dreaming", "Self-transformation"],
+        "challenges": ["Resist change", "Emotional overwhelm"],
+        "direction_core_energy": ["Ancestral influence"],
+        "direction_strengths": ["Wisdom from challenges", "Ancestral wisdom"],
+        "direction_challenges": ["Tough life challenges", "Destructive ancestral patterns"]
+      },
+      {
+        "solar_wave_glyph": "Deer",
+        "direction": "West",
+        "core_energy": ["Repitition"],
+        "strengths": ["Strong relationships", "Prophetic dreaming", "Reliable", "Friendly"],
+        "challenges": ["Repeated mistakes", "Lack of awareness", "Fearful", "Lack of clarity"],
+        "direction_core_energy": ["Setbacks", "Loss", "Destabilization"],
+        "direction_strengths": ["Letting go"],
+        "direction_challenges": ["Persistent loss"]
+      },
+      {
+        "solar_wave_glyph": "Rabbit",
+        "direction": "South",
+        "core_energy": ["Divine Feminine", "Fertility"],
+        "strengths": ["Intuitive", "Action in stillness", "Tuned with lunar cycles", "Strong willpower", "Project creation and growth"],
+        "challenges": ["Emotional intensity", "Dramatic", "Challenging relationship with mother", "Addictive personality", "Relationship issues"],
+        "direction_core_energy": ["Will and discipline"],
+        "direction_strengths": ["Creating opportunities", "Removing barriers"],
+        "direction_challenges": ["Focus surface problems"]
+      },
+      {
+        "solar_wave_glyph": "Water",
+        "direction": "East",
+        "core_energy": ["Emotions"],
+        "strengths": ["Emotional connection", "Adaptability", "Emotional balance"],
+        "challenges": ["Internalized emotions", "Destructive emotions", "Emotional drama", "Emotional droughts", "Emotional floods", "Emotional hail"],
+        "direction_core_energy": ["Good luck"],
+        "direction_strengths": ["Good fortune", "Blessings"],
+        "direction_challenges": ["Complacency", "Anxiety from challenges"]
+      },
+      {
+        "solar_wave_glyph": "Dog",
+        "direction": "North",
+        "core_energy": ["Ancestors"],
+        "strengths": ["Loyalty", "Lasting relationships", "Dream-guided wisdom", "Spiritual communication"],
+        "challenges": ["Betrayal", "Guarded emotions", "Ancestral burdens"],
+        "direction_core_energy": ["Ancestral influence"],
+        "direction_strengths": ["Wisdom from challenges", "Ancestral wisdom"],
+        "direction_challenges": ["Tough life challenges", "Destructive ancestral patterns"]
+      },
+      {
+        "solar_wave_glyph": "Monkey",
+        "direction": "West",
+        "core_energy": ["Joy"],
+        "strengths": ["Creativity", "Arts", "Dance", "Artistic expression", "Spiritual joy", "Plant medicine"],
+        "challenges": ["Addictions", "Polarized emotional swings", "Finding balance"],
+        "direction_core_energy": ["Setbacks", "Loss", "Destabilization"],
+        "direction_strengths": ["Letting go"],
+        "direction_challenges": ["Persistent loss"]
+      },
+      {
+        "solar_wave_glyph": "Healing Ivy",
+        "direction": "South",
+        "core_energy": ["Magic"],
+        "strengths": ["Plant medicine", "Intuition", "Prophetic vision", "Shapeshifting", "Seduction", "Creativity"],
+        "challenges": ["Destructive tendencies", "Fiery temper", "Conflict", "Betrayal", "Seeking revenge"],
+        "direction_core_energy": ["Will and discipline"],
+        "direction_strengths": ["Creating opportunities", "Removing barriers"],
+        "direction_challenges": ["Focus surface problems"]
+      },
+      {
+        "solar_wave_glyph": "Reed",
+        "direction": "East",
+        "core_energy": ["Power"],
+        "strengths": ["Flexibility", "Leadership", "Emotional detachment", "Strong willpower", "Clear guidance"],
+        "challenges": ["Emotional decisions", "Abuse power", "Emotional imbalance", "Indifference", "Selfishness", "Recklessness"],
+        "direction_core_energy": ["Good luck"],
+        "direction_strengths": ["Good fortune", "Blessings"],
+        "direction_challenges": ["Complacency", "Anxiety from challenges"]
+      },
+      {
+        "solar_wave_glyph": "Jaguar",
+        "direction": "North",
+        "core_energy": ["Make unconscious conscious"],
+        "strengths": ["Trauma healing", "Belief transformation", "Protective guardian", "Lucid dreaming", "Spirituality"],
+        "challenges": ["Childhood trauma", "Repeating destructive patterns", "Mischievous"],
+        "direction_core_energy": ["Ancestral influence"],
+        "direction_strengths": ["Wisdom from challenges", "Ancestral wisdom"],
+        "direction_challenges": ["Tough life challenges", "Destructive ancestral patterns"]
+      },
+      {
+        "solar_wave_glyph": "Eagle",
+        "direction": "West",
+        "core_energy": ["Success"],
+        "strengths": ["Natural fortune", "Leadership", "Physical prowess", "Sports", "Overcome obstacles"],
+        "challenges": ["Arrogance", "Low self-esteem", "Emotional stress"],
+        "direction_core_energy": ["Setbacks", "Loss", "Destabilization"],
+        "direction_strengths": ["Letting go"],
+        "direction_challenges": ["Persistent loss"]
+      },
+      {
+        "solar_wave_glyph": "Vulture",
+        "direction": "South",
+        "core_energy": ["Digesting heavy energy"],
+        "strengths": ["Wisdom through suffering", "Enduring", "Kind advisor", "Crisis support"],
+        "challenges": ["Challenging life", "Attract heavy energy", "Relationship with father", "Consumption by heavy energy"],
+        "direction_core_energy": ["Will and discipline"],
+        "direction_strengths": ["Creating opportunities", "Removing barriers"],
+        "direction_challenges": ["Focus surface problems"]
+      },
+      {
+        "solar_wave_glyph": "Movement",
+        "direction": "East",
+        "core_energy": ["Movement"],
+        "strengths": ["Dynamic energy", "Innovative projects", "Adventurous spirit", "Creative impact"],
+        "challenges": ["Commitment avoidance", "Relationship instability", "Project abandonment", "Fear-driven patterns", "Burnout"],
+        "direction_core_energy": ["Good luck"],
+        "direction_strengths": ["Good fortune", "Blessings"],
+        "direction_challenges": ["Complacency", "Anxiety from challenges"]
+      },
+      {
+        "solar_wave_glyph": "Flint",
+        "direction": "North",
+        "core_energy": ["Karma", "Justice"],
+        "strengths": ["Persuasive clarity", "Emotional clarity", "Influential communication", "Reveal truth", "Kind words"],
+        "challenges": ["Hidden struggles", "Harmful persuasion", "Harsh words", "Relationship struggles", "Justice obsession"],
+        "direction_core_energy": ["Ancestral influence"],
+        "direction_strengths": ["Wisdom from challenges", "Ancestral wisdom"],
+        "direction_challenges": ["Tough life challenges", "Destructive ancestral patterns"]
+      },
+      {
+        "solar_wave_glyph": "Rain",
+        "direction": "West",
+        "core_energy": ["Purification"],
+        "strengths": ["Renewal", "Growth", "Wise guidance", "Gentleness", "Luck", "Harmonious beauty"],
+        "challenges": ["Dramatic emotions", "Destructive relationships", "Emotional rollercoaster"],
+        "direction_core_energy": ["Setbacks", "Loss", "Destabilization"],
+        "direction_strengths": ["Letting go"],
+        "direction_challenges": ["Persistent loss"]
+      },
+      {
+        "solar_wave_glyph": "Flower",
+        "direction": "South",
+        "core_energy": ["Enlightenment"],
+        "strengths": ["Endless possibilities", "Effortless manifestation", "Spiritual connection", "Creative expression", "Growth", "Flourishing"],
+        "challenges": ["Superficial vanity", "Addiction to pleasure", "Overwhelm", "Unhealthy intensity"],
+        "direction_core_energy": ["Will and discipline"],
+        "direction_strengths": ["Creating opportunities", "Removing barriers"],
+        "direction_challenges": ["Focus surface problems"]
+      }
+    ]
+  }

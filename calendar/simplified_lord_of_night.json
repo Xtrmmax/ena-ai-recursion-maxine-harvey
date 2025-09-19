@@ -1,0 +1,67 @@
+{
+    "lords_of_the_night": [
+      {
+        "lord_number": 1,
+        "name": "Xiuhtecuhtli",
+        "core_energy": ["Expansive growth"],
+        "strengths": ["Creating opportunities", "Expansive energy"],
+        "challenges": ["Uncontrolled expansion", "All-consuming growth", "Unintended manifestations"]
+      },
+      {
+        "lord_number": 2,
+        "name": "Tezcatlipoca",
+        "core_energy": ["Duality"],
+        "strengths": ["Inner transformation", "See through illusions"],
+        "challenges": ["Unbalanced", "Experience good and bad at same time", "Extreme life challenges"]
+      },
+      {
+        "lord_number": 3,
+        "name": "Piltzintecuhtli",
+        "core_energy": ["Joyful vitality"],
+        "strengths": ["Kind positivity", "Bright outlook", "Lucid dreaming"],
+        "challenges": ["Vivid dreams creating fear"]
+      },
+      {
+        "lord_number": 4,
+        "name": "Centeotl",
+        "core_energy": ["Creation"],
+        "strengths": ["New beginnings", "Project initiation", "Quick manifestation", "Creating", "Lucid dreaming"],
+        "challenges": ["Incomplete focus", "Unintended results", "Short-term drive"]
+      },
+      {
+        "lord_number": 5,
+        "name": "Mictlantecuhtli",
+        "core_energy": ["Ancestral patterns"],
+        "strengths": ["Persistence"],
+        "challenges": ["Repeat ancestral patterns", "Starting and losing over and over"]
+      },
+      {
+        "lord_number": 6,
+        "name": "Chalchiuhtlicue",
+        "core_energy": ["Emotional turmoil"],
+        "strengths": ["Deeply emotional", "Physical health"],
+        "challenges": ["Adapting", "Long-term planning", "Mood swings", "Bad temper", "Emotional turmoil"]
+      },
+      {
+        "lord_number": 7,
+        "name": "Tlazohteotl",
+        "core_energy": ["Unconditional love that nurtures growth"],
+        "strengths": ["Life-giving energy"],
+        "challenges": ["Unwanted growth"]
+      },
+      {
+        "lord_number": 8,
+        "name": "Tepeyolohtli",
+        "core_energy": ["Subconscious mind"],
+        "strengths": ["Spiritual development", "Internal awareness"],
+        "challenges": ["Shy", "Deeply introspective", "Isolation"]
+      },
+      {
+        "lord_number": 9,
+        "name": "Tlaloc",
+        "core_energy": ["Purification"],
+        "strengths": ["Energy cleansing"],
+        "challenges": ["Intense emotions"]
+      }
+    ]
+  }

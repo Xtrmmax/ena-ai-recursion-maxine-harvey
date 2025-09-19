@@ -1,0 +1,69 @@
+{
+    "day_numbers": {
+      "1": {
+        "core_energy": ["Source of Creation"],
+        "strengths": ["New beginnings", "Project initiation", "Quick manifestation", "Creating"],
+        "challenges": ["Incomplete focus", "Unintended results", "Short-term drive"]
+      },
+      "2": {
+        "core_energy": ["Duality", "Ancestors"],
+        "strengths": ["Radiant presence", "Inner wisdom", "Ancestral knowledge", "Planning", "Thinking"],
+        "challenges": ["Ancestral pattern repetition", "Emotional instability", "Insecurity", "Duality"]
+      },
+      "3": {
+        "core_energy": ["Bloodline"],
+        "strengths": ["Unbreakable loyalty", "Strong family connection", "Perserverance"],
+        "challenges": ["Family entrapment", "Violence", "Emotional intensity", "Relationship turbulence", "Challenging life"]
+      },
+      "4": {
+        "core_energy": ["Order", "Direction"],
+        "strengths": ["Natural harmony", "Fortunate", "Balanced", "Grounded", "Establishing order"],
+        "challenges": ["Hardship from birthplace history", "Resistance to change", "Overly rooted"]
+      },
+      "5": {
+        "core_energy": ["Protection"],
+        "strengths": ["Diverse talents", "Versatility", "Potential", "Equilibrium", "Centered", "Spiritual connection" ],
+        "challenges": ["Undeveloped gifts", "Missed opportunities", "Growth resistance", "Laziness", "Lack of discipline"]
+      },
+      "6": {
+        "core_energy": ["Force"],
+        "strengths": ["Transformation", "Impactful change"],
+        "challenges": ["Overreaction", "Imbalance", "Disruptive power", "Extreme ups and downs"]
+      },
+      "7": {
+        "core_energy": ["Creation"],
+        "strengths": ["Creation", "Manifestation", "Thinking", "Live in moment", "Centered", "Balanced"],
+        "challenges": ["Unintended creations", "Emotional inconsistency"]
+      },
+      "8": {
+        "core_energy": ["Subconscious mind"],
+        "strengths": ["Make unconscious conscious", "Psychology", "Clarity of process and structure", "Understanding and ability"],
+        "challenges": ["Risky behavior", "Addictions", "Heavy emotions", "Dangerous actions"]
+      },
+      "9": {
+        "core_energy": ["Unconcious mind"],
+        "strengths": ["Learning through suffering", "Profound growth", "Communication with all levels and frequencies", "Ordering projects"],
+        "challenges": ["Intense battles", "Significant hardships", "Isolation risk"]
+      },
+      "10": {
+        "core_energy": ["Cultivation"],
+        "strengths": ["Develop talents", "Abundant success", "Grower / Giver of life", "Creativity", "Joining skills together"],
+        "challenges": ["Frustration with stagnation", "Anxiety from struggle"]
+      },
+      "11": {
+        "core_energy": ["Persistence"],
+        "strengths": ["Unyielding persistence", "Work and then rest", "Gift of expression", "Moves with force"],
+        "challenges": ["Starting over and over", "Slow progress", "Demoralization", "Need to be able to express themselves"]
+      },
+      "12": {
+        "core_energy": ["Clear sight"],
+        "strengths": ["Seeking wisdom", "Positive growth", "Learn in a kind way", "Learn from wisdom", "Clear vision", "Understand origin of things"],
+        "challenges": ["Frustration with challenges", "Anxiety from challenges"]
+      },
+      "13": {
+        "core_energy": ["Developed Creativity"],
+        "strengths": ["Profound potential", "Effortless creation", "Balanced harmony", "Flourishing", "Set minds and do it"],
+        "challenges": ["Impatience with obstacles", "Frustration when not manifesting vision"]
+      }
+    }
+  }
