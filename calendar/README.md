@@ -13,7 +13,7 @@ The calendar system encodes at least **10 different mathematical mechanisms** (c
 - Built special handling for “gap days” that break the cycle and restart it  
 - Used precise hour/minute boundaries to determine exact year transitions  
 - Integrated time zone normalization and DST error handling  
-- Mapped final dates to multiple layers of traits (numbers, glyphs, lords, birds, waves, years)  
+- Mapped final dates to multiple layers of traits
 
 ## Results
 - Calendar engine produces accurate results across centuries  
