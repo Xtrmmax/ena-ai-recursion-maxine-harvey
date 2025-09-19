@@ -7,7 +7,8 @@ For a quick overview, see the [Executive Summary](EXECUTIVE_SUMMARY.md).
 Hands-on technical work demonstrating:
 
 - Fine-tuning a large language model (Mistral-7B with LoRA)  
-- Building a mathematically complex calendar system  
+- Building a mathematically complex calendar system
+- Building a dataset generator
 
 > **Notice:** This repository is proprietary and provided exclusively for YC application review.  
 > You may view and run the code for evaluation purposes only.  
@@ -45,4 +46,6 @@ The system encodes **at least 10 different mathematical mechanisms** (cyclical o
 
 Each module had to be built, tested, and integrated before the system worked end-to-end. Unlike the Gregorian calendar, there’s no single linear formula — every piece is interdependent, so debugging required solving it one layer at a time.  
 
-This gave me deeper skills in **vibe coding, debugging, and designing complex deterministic systems**, which I will now bring back to the fine-tuning track.  
+Within the calendar is embedded a dataset generator currently set to 3000 outputs, but scalable beyond that. 
+
+This gave me deeper skills in **vibe coding, debugging, dataset creation and designing complex deterministic systems**, which I will now bring back to the fine-tuning track.  
