@@ -15,7 +15,7 @@ This was my first major technical project. I then pivoted to the calendar projec
 
 ## Demo
 This model runs and reflects training on **sensory modalities (VAKOG: Visual, Auditory, Kinesthetic, Olfactory, Gustatory)**.  
-Responses are not yet refined — the model tends to **mix modalities together** rather than isolate one clearly.  
+Responses are not yet refined and the model tends to **mix modalities together** rather than isolate one clearly.  
 Even so, the outputs show the effect of fine-tuning compared to a base model.  
 
 Try asking:  
@@ -31,7 +31,7 @@ Try asking:
 - **Sep 2025 onward:** Returning to fine-tuning with clearer roadmap and stronger coding foundation  
 
 ## Next Steps
-- Expand dataset from ~1,200 to 10k+ examples to reduce mixing of modalities  
+- Expand dataset from ~1,200 to 5K+ strong examples to reduce mixing of modalities  
 - Add evaluation prompts to test for modality isolation more consistently  
 - Apply structured approach from the calendar and Bitcoin predictor projects to improve fine-tuning discipline  
 
