@@ -1,5 +1,10 @@
 # Calendar Engine
 
+> Note: Before March 2025 I had never built a deterministic system with interlocking rules.  
+> Using “vibe coding” — trial-and-error iteration with AI assistants — I built a calendar engine with at least 10 mathematical mechanisms (cyclical offsets, leap years, time zones, exception handling, etc.).  
+> I still don’t know how to code, but I learned how to layer complex logic and debug one piece at a time until the whole system worked.
+
+
 ## Overview
 From **March–June 2025**, I built a custom calendar engine as my second major technical project.  
 Unlike the Gregorian calendar, this system required **at least 10 interdependent mathematical mechanisms** — such as cyclical offsets, modular resets, leap year adjustments, time-zone conversions, and exception handling for gap days.  
