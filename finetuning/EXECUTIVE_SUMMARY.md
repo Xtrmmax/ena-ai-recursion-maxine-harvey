@@ -1,7 +1,7 @@
 # Fine-Tuning Work
 
 > Note: Before February 2025 I had never fine-tuned a model or set up an AI development environment.  
-> Using “vibe coding” — trial-and-error iteration with AI assistants — I was able to configure my machine, prepare datasets, and successfully fine-tune models within two weeks.  
+> Using “vibe coding” and trial-and-error iteration with AI assistants I was able to configure my machine, prepare datasets, and successfully fine-tune models within two weeks.  
 > I still don’t know most of the technical terms, but I know how to build momentum and make things work.
 
 ## Overview
