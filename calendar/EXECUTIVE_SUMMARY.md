@@ -21,4 +21,4 @@ Debugging required solving one layer at a time — unlike the Gregorian calendar
 - Successfully generated large datasets for downstream use (fine-tuning, prediction experiments).  
 
 ## Reflection
-This project sharpened skills in **debugging, modular coding, datset creation and building deterministic systems**. Those skills directly strengthened later fine-tuning work.
+This project sharpened skills in **debugging, modular coding, dataset creation and building deterministic systems**. Those skills will directly strengthen upcoming fine-tuning work.
