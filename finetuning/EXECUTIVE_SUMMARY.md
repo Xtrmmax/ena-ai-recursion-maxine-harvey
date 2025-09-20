@@ -1,7 +1,7 @@
 # Fine-Tuning Work
 
 ## Overview
-Within **two weeks of receiving my computer (Feb 9–25, 2025)** I trained my second fine-tuned model, a variant of **Mistral-7B**, using a dataset of ~1,200 examples (VAKOG sensory modalities).  
+Within **two weeks of receiving my computer (Feb 9 2025)** I trained my second fine-tuned model, a variant of **Mistral-7B**, using a dataset of ~1,200 examples (VAKOG sensory modalities).  
 This was my first major technical project and foundation for all later work.
 
 > Note: Before February 2025 I had never fine-tuned a model or set up an AI development environment.  
