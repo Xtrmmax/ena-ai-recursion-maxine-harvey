@@ -34,4 +34,3 @@ Try asking:
 - Expand dataset from ~1,200 to 5K+ strong examples to reduce mixing of modalities  
 - Add evaluation prompts to test for modality isolation more consistently  
 - Apply structured approach from the calendar and Bitcoin predictor projects to improve fine-tuning discipline  
-
