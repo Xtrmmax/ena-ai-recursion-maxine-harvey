@@ -29,7 +29,7 @@ Hands-on technical work demonstrating:
 
 ## Fine-Tuning Work
 
-Within **two weeks of receiving my new computer (Feb 9–25, 2025)** I prepared a dataset, ran fine-tuning, and produced a working variant of **Mistral-7B** trained on **VAKOG sensory modalities**.
+Within **two weeks of starting** I prepared a dataset, ran fine-tuning, and produced a working variant of **Mistral-7B** trained on **VAKOG sensory modalities**.
 
 ### What’s Here
 - `finetune_vakog.py` → training script  
