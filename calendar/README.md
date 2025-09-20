@@ -1,5 +1,7 @@
 # Calendar Engine
 
+For a quick overview, see the: [Calendar Executive Summary](./EXECUTIVE_SUMMARY.md)
+
 > Note: Before March 2025 my only experience in Python was getting to Day 8 of 100 Days of Coding on Udemy.  
 > Using “vibe coding” and trial-and-error iteration with AI assistants I built a calendar engine with at least 10 mathematical mechanisms (cyclical offsets, leap years, time zones, exception handling, etc.).  
 > I still don’t know how to code, but I learned how to layer complex logic and debug one piece at a time until the whole system worked.
@@ -28,4 +30,4 @@ It became the foundation for how I now approach fine-tuning and more advanced AI
 - Code the Bitcoin predictor (currently manual in Excel).  
 - Integrate calendar outputs into training datasets for future fine-tuned models.  
 
-📄 See also: [Calendar Executive Summary](./EXECUTIVE_SUMMARY.md)
+
