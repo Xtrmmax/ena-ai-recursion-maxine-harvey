@@ -2,7 +2,7 @@ For a quick overview, see the [Executive Summary](EXECUTIVE_SUMMARY.md).
 
 > Note: Before 2025 I had never fine-tuned a model or built anything in Python beyond completing Day 8 in 100 Days to Code on Udemy.  
 > Using “vibe coding” and trial-and-error iteration with AI assistants I set up my machine, fine-tuned Mistral-7B within two weeks, and later built a calendar engine with at least 10 interlocking mathematical mechanisms.  
-> I still don’t know most of the technical terms, but I know how to build momentum, debug one layer at a time, and make complex systems work.
+> I still don’t know most of the technical terms or how to code, but I know how to build momentum, debug one layer at a time, and make complex systems work.
 
 
 # YC_Application_Silaiclone_Maxine_Harvey_Portfolio
