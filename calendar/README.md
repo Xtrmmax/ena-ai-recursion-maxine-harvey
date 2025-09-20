@@ -1,7 +1,7 @@
 # Calendar Engine
 
-> Note: Before March 2025 I had never built a deterministic system with interlocking rules.  
-> Using “vibe coding” — trial-and-error iteration with AI assistants — I built a calendar engine with at least 10 mathematical mechanisms (cyclical offsets, leap years, time zones, exception handling, etc.).  
+> Note: Before March 2025 my only experience in Python was getting to Day 8 of 100 Days of Coding on Udemy.  
+> Using “vibe coding” and trial-and-error iteration with AI assistants I built a calendar engine with at least 10 mathematical mechanisms (cyclical offsets, leap years, time zones, exception handling, etc.).  
 > I still don’t know how to code, but I learned how to layer complex logic and debug one piece at a time until the whole system worked.
 
 
