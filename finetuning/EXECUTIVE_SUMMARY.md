@@ -1,4 +1,4 @@
-# Fine-Tuning Work EXECUTIVE SUMMARY
+# Fine-Tuning Work Executive Summary
 
 > Note: Before February 2025 I had never fine-tuned a model or set up an AI development environment.  
 > Using “vibe coding” and trial-and-error iteration with AI assistants I was able to configure my machine, prepare datasets, and successfully fine-tune models within two weeks.  
