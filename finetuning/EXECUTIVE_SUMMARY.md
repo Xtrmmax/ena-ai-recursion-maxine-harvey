@@ -16,7 +16,7 @@ This was my first major technical project and foundation for all later work.
 
 ## Results
 - **First attempt:** model asked and answered its own questions.  
-- **Second attempt:** resolved that issue, though dataset size limited quality.  
+- **Second attempt:** resolved that issue, though dataset size limited quality and model mixes modalities together.  
 - Demonstrated ability to fine-tune and run a custom model quickly.
 
 ## Demo
