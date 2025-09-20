@@ -1,4 +1,4 @@
-# Fine-Tuning Work
+# Fine-Tuning Work ReadMe
 
 📄 For a quick overview, see the [Fine-Tuning Executive Summary](./EXECUTIVE_SUMMARY.md).
 
@@ -8,7 +8,7 @@
 > I still don’t know most of the technical terms, but I know how to build momentum and make things work.
 
 ## Overview
-Within two weeks of receiving my new computer on **Feb 9, 2025**. By **Feb 25, 2025**, I had trained my **second fine-tuned Mistral-7B model** on ~1,200 examples (`vakog_dataset_clean.json`).  
+Within **two weeks of starting**, I had trained my **second fine-tuned Mistral-7B model** on ~1,200 examples (`vakog_dataset_clean.json`).  
 This was my first major technical project. I then pivoted to the calendar project (Mar–Jun 2025) to practice coding on a deterministic system. In **Jul–Aug 2025**, I extended the calendar model to build a **Bitcoin price movement predictor**. That gave me the confidence and clarity to return to fine-tuning with a stronger foundation.
 
 ## Results
