@@ -1,15 +1,56 @@
 # Portfolio Executive Summary
+*(Foundational Projects Leading to ENA.ai Recursion — 2025)*
 
-This portfolio demonstrates my ability to take on technical work as a non-technical founder.  
+---
 
-> Note: Before 2025 I had never fine-tuned a model or built anything in Python beyond completing Day 8 in 100 Days to Code on Udemy.  
-> Using “vibe coding” and trial-and-error iteration with AI assistants I set up my machine, fine-tuned Mistral-7B within two weeks, and later built a calendar engine with at least 10 interlocking mathematical mechanisms.  
-> I still don’t know most of the technical terms or how to code, but I know how to build momentum, debug one layer at a time, and make complex systems work.
+## Overview
+This portfolio documents my transition from a non-technical founder with minimal coding experience to independently building functional AI systems — from fine-tuning a large model to designing a deterministic behavioral engine.
 
-- In **Feb 2025**, within two weeks of receiving my new computer, I fine-tuned a **Mistral-7B model** using a custom dataset (~1,200 examples). The second iteration produced meaningful improvements, showing I could move from setup to working model very quickly.  
-- From **Mar–Jun 2025**, I built a **mathematically complex calendar system** that required at least 10 interdependent mechanisms (cyclical offsets, modular resets, leap year handling, time-zone conversions, etc.), debugging each layer until the system worked end-to-end.
-- That calendar code also contains a Dataset Generator that can be scaled beyond its current output of 3000 entries (7MB) 
-- In **Jul–Aug 2025**, I extended the calendar project into a **Bitcoin price movement predictor (manual Excel prototype)**.  
-- As of **Sep 2025**, I’m returning to fine-tuning with a stronger foundation, ready to expand datasets, run evaluations, and iterate faster.  
+> Before 2025, I had never fine-tuned a model or built anything in Python beyond Day 8 of “100 Days of Code.”  
+> Using “vibe coding” and iterative debugging with AI assistants, I set up my local environment, trained a custom model, and later engineered a calendar system with over ten interdependent mathematical mechanisms.  
+> I still don’t know all the technical terminology — but I know how to structure problems, build momentum, and make complex systems work.
 
-Together, these projects show rapid learning, hands-on persistence, and the ability to ship working systems under uncertainty.  
+---
+
+## Project Timeline
+
+### **February 2025 — Fine-Tuning Mistral-7B**
+- Fine-tuned a **Mistral-7B model** on ~1,200 sensory-modality examples (VAKOG dataset).  
+- Completed the full setup and training pipeline within **two weeks** of unboxing my computer.  
+- Second iteration achieved meaningful refinement, proving rapid learning and execution speed.
+
+### **March–June 2025 — Calendar Engine**
+- Built a **mathematically complex calendar engine** featuring 10+ interlocking mechanisms (cyclical offsets, modular resets, leap year handling, time zones, etc.).  
+- Integrated a **dataset generator** capable of scaling beyond 3,000 entries (7 MB+).  
+- System modeled **behavior as a function of time**, producing deterministic symbolic outputs.
+
+### **July–August 2025 — Behavioral Predictor**
+- Extended the calendar engine into a **Bitcoin price movement predictor (manual prototype)** to test multi-variable temporal forecasting.  
+- Demonstrated transferable system-design skills between symbolic and numeric modeling.
+
+### **October 17 – November 4 2025 — ENA.ai Recursion Prototype**
+- Built the full **ENA.ai Recursion** prototype from start to finish in **19 days**.  
+- Translated symbolic behavioral modeling into **emotional geometry**, formalized through valence, arousal, and trust.  
+- Completed architecture, deterministic engine, Streamlit cockpit, and documentation for YC review.
+- Started from our behavior model and formalized it in code as vectors (direction + magnitude), not derived from the calendar work.
+
+---
+
+## Core Capabilities Demonstrated
+| Skill | Description |
+|--------|--------------|
+| **Rapid Technical Learning** | Learned and applied advanced fine-tuning workflows within two weeks. |
+| **Systems Thinking** | Designed and debugged layered deterministic systems from scratch. |
+| **Iterative Problem Solving** | Used incremental “vibe coding” to isolate and solve logic dependencies. |
+| **Cross-Domain Integration** | Took our pre-existing human behavior model and implemented it as **emotional geometry** — emotions as vectors with direction (θ) and magnitude (arousal), encoded in deterministic math. |
+
+---
+
+## Summary
+These projects demonstrate that I can **design, build, and complete complex AI systems** despite a non-technical background.  
+Through persistence and structured experimentation, I developed a foundation strong enough to build the **ENA.ai Recursion Engine** — a deterministic emotional system grounded in math, not luck.
+
+---
+
+*Document: `archive/EXECUTIVE_SUMMARY.md`*  
+*Prepared for YC W25 Application — Maxine Harvey*

@@ -4,37 +4,37 @@
 ---
 
 ## Overview
-This archive contains earlier prototype work that laid the conceptual and technical groundwork for **ENA.ai Recursion**, the deterministic emotional regulation engine developed later.
+This archive contains early prototype work that established the conceptual and technical foundations for **ENA.ai Recursion**, the deterministic emotional regulation engine developed later.
 
-Each archived project represents a key learning milestone — moving from model fine-tuning and behavioral mapping toward the rule-based emotional architecture now powering ENA.ai.
+Each archived project represents a learning milestone — moving from **model fine-tuning** and **symbolic behavioral systems** toward the **rule-based emotional geometry** now powering ENA.ai.
 
 ---
 
 ## Archived Projects
 
 ### Project_1_Finetuning
-- **Focus:** Data curation, model fine-tuning, and sensory (VAKOG) encoding experiments.  
-- **Purpose:** Establish mapping between user language and representational systems (visual, auditory, kinesthetic).  
+- **Focus:** Model fine-tuning and sensory (VAKOG) encoding experiments.  
+- **Purpose:** Map user language to representational modalities (visual, auditory, kinesthetic).  
 - **Artifacts:**  
-  - `EXECUTIVE_SUMMARY.md`, `MODEL_CARD.md`, and early training scripts.  
-  - Datasets and checkpoints demonstrating supervised alignment work.  
-- **Outcome:** Inspired the geometric emotion-mapping approach used in later recursion models.
+  - `EXECUTIVE_SUMMARY.md`, `MODEL_CARD.md`, early fine-tuning scripts.  
+  - Datasets and checkpoints demonstrating supervised alignment.  
+- **Outcome:** Inspired the later geometric emotion-mapping used in ENA.ai Recursion.
 
 ---
 
 ### Project_2_Calendar
-- **Focus:** Personalized scheduling, state tracking, and user-context reasoning.  
-- **Purpose:** Explore multi-variable context management and temporal decision logic.  
+- **Focus:** Behavioral prediction through temporal and symbolic logic.  
+- **Purpose:** Explore cyclical pattern modeling and personality forecasting.  
 - **Artifacts:**  
-  - Prototype calendar reasoning models (`scripts/`, `datasets/`, `outputs/`).  
-  - Descriptive summaries (`EXECUTIVE_SUMMARY.md`, `README.md`).  
-- **Outcome:** Introduced the concept of *temporal regulation*, later formalized as the **TemporalNeedEngine** in ENA.ai Recursion.
+  - Prototype calendar engine (`scripts/`, `datasets/`, `outputs/`).  
+  - Documentation (`EXECUTIVE_SUMMARY.md`, `README.md`).  
+- **Outcome:** Introduced **deterministic temporal regulation**, the conceptual forerunner of ENA.ai’s **TemporalNeedEngine**.
 
 ---
 
 ## Context
-All files here are preserved for provenance and review.  
-They are **no longer in the active import chain** but represent the intellectual evolution toward the ENA.ai Recursion prototype showcased for YC.
+All files are preserved for provenance and review.  
+They are **no longer part of the active system**, but illustrate the intellectual evolution that led to the ENA.ai Recursion prototype submitted for YC review.
 
 ---
 

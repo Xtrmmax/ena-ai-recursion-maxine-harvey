@@ -1,51 +1,63 @@
 # Calendar Engine ReadMe
 
-For a quick overview, see the: [Calendar Executive Summary](./EXECUTIVE_SUMMARY.md)
+📄 For a quick overview, see the [Calendar Executive Summary](./EXECUTIVE_SUMMARY.md)
 
 > Note: Before March 2025 my only experience in Python was getting to Day 8 of 100 Days of Coding on Udemy.  
-> Using “vibe coding” and trial-and-error iteration with AI assistants I built a calendar engine with at least 10 mathematical mechanisms (cyclical offsets, leap years, time zones, exception handling, etc.).  
-> I still don’t know how to code, but I learned how to layer complex logic and debug one piece at a time until the whole system worked.
+> Using “vibe coding” and trial-and-error iteration with AI assistants, I built a **deterministic behavioral calendar engine** with more than ten interlocking mechanisms (cyclical offsets, leap years, time zones, symbolic mapping, exception handling, etc.).  
+> I still don’t know most of the technical terms — but I understand how to layer logic, test determinism, and make complex systems work.
+
+---
 
 ## Overview
-From **March–June 2025**, I built a custom calendar engine as my second major technical project.  
-Unlike the Gregorian calendar, this system required **10+ interdependent mechanisms** (cyclical offsets, modular resets, leap year adjustments, time-zone conversions, exception handling).  
+Built from **March–June 2025**, this system was my second major technical project.  
+The **Mexica (Aztec) calendar engine** computes **behavioral and personality profiles** from date and time inputs using symbolic and mathematical mappings.
 
-Each piece had to be coded, tested, and debugged in layers until the system worked end-to-end.
+Unlike the Gregorian calendar, which is linear, this engine operates on **cyclical interdependencies** — modular resets, time-zone shifts, leap-year corrections, and symbolic offsets all working in harmony.  
+Each module had to be debugged and tuned in sequence before the engine produced consistent outputs.
+
+---
 
 ## What’s Here
-- `calendar_engine.py` → core Python code  
-- `/datasets` → simplified JSON input files used by the engine  
-- `/outputs` → generated calendar outputs and dataset generator results  
+- `calendar_engine_pseudocode.md` → structural overview of the proprietary engine  
+- `/datasets` → simplified JSON examples (`simplified_day_glyphs.json`)  
+- `/outputs` → deterministic sample outputs and dataset generator summaries  
+- **Proprietary core code** retained privately for IP protection  
+
+---
 
 ## Results
-- Completed a working calendar system with deterministic outputs.  
-- Debugged across multiple interlocking layers (each mechanism depended on the last).  
-- Extended the system in **Jul–Aug 2025** into a **Bitcoin price movement predictor** (manual Excel prototype for now).  
+- Generated thousands of **deterministic, personality-based outputs**  
+- Produced full datasets for behavioral prediction and symbolic modeling  
+- Verified mathematical determinism across cyclical transformations  
+- Extended the system (July–Aug 2025) into a **Bitcoin behavioral predictor** (manual prototype)
+
+---
 
 ## Reflection
-This project pushed me to think modularly, integrate carefully, and debug systematically.  
-It became the foundation for how I now approach fine-tuning and more advanced AI experiments.
+This was my first fully deterministic symbolic model.  
+It taught me **modular debugging, rule-based architecture, and cyclic logic design**, shaping how I later built the **Temporal Need Engine (TNE)** inside ENA.ai Recursion.
 
-## Next Steps
-- Code the Bitcoin predictor (currently manual in Excel).  
-- Integrate calendar outputs into training datasets for future fine-tuned models.  
-
+---
 
 ## Transition to ENA.ai Recursion
+The Calendar Engine modeled **behavior through time**.  
+ENA.ai Recursion models **emotion through geometry**.  
+Both use **mathematical determinism** — different languages, same principle.
 
-The Calendar Engine was my first experiment with deterministic behavioral modeling — a system that used the **Mexica (Aztec) calendar** to generate dynamic personality and trait forecasts from cyclical symbolic inputs such as glyphs, directions, and day rulers.  
-Each combination produced a unique behavioral signature, effectively acting as a **predictive personality generator** rather than a static calendar.
-
-This project introduced the idea that **patterns of time can reveal patterns of self**.  
-That same principle became the foundation for **ENA.ai Recursion**, which replaced symbolic time with emotional geometry.  
-Where the calendar predicted behavioral expression through cosmic cycles, the **TemporalNeedEngine (TNE)** now predicts emotional regulation through affective cycles — using valence, arousal, and trust as its temporal coordinates.
-
-Both systems share the same core architecture:
 > deterministic input → cyclical transformation → interpretable, symbolic output.
 
-In other words, ENA.ai Recursion is the emotional successor to the calendar engine —  
-a system that transforms rhythm into regulation, and pattern into process.
+| Calendar Engine | ENA.ai Recursion |
+|------------------|------------------|
+| Symbolic time cycles | Emotional regulation loops |
+| Behavioral archetypes | Affective states (valence/arousal/trust) |
+| Mexica (Aztec) symbolic math | Emotional geometric math |
+| Predictive personality output | Predictive emotional recovery |
+
+The calendar predicted **behavioral rhythm**; ENA.ai predicts **emotional rhythm**.  
+Together they form a conceptual continuum — pattern → process → regulation.
+
+---
 
 > Note: Only one dataset (`simplified_day_glyphs.json`) is shown for illustration.  
-> The full symbolic model includes multiple archetypal mappings (direction, ruler, nahual, solar wave, etc.),  
-> stored privately to protect intellectual property.
+> The full symbolic dataset and engine code are stored privately to protect IP.  
+> This repository includes pseudocode and deterministic examples to demonstrate structure and capability.
