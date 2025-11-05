@@ -1,0 +1,6008 @@
+[
+    {
+        "input": "The mountain loomed in sharp silhouette.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The answer flashed before my eyes'?",
+        "output": "This is Visual because 'flashed' and 'eyes' tie to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a fire using the Visual modality.",
+        "output": "Flames danced in a vivid orange glow.",
+        "type": "generation"
+    },
+    {
+        "input": "The billboard shimmered under the noon sun.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She glared daggers at me'?",
+        "output": "This is Visual because 'glared' implies a piercing look.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a crowd using Visual.",
+        "output": "Faces blurred into a sea of colors.",
+        "type": "generation"
+    },
+    {
+        "input": "The neon sign flickered in the dark.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The ocean sparkled like a sheet of glass.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a glaring mistake'?",
+        "output": "This is Visual because 'glaring' suggests obvious visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Visual.",
+        "output": "Its feathers gleamed in iridescent blues.",
+        "type": "generation"
+    },
+    {
+        "input": "The siren wailed through the streets.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His tone grated on my nerves'?",
+        "output": "This is Auditory because 'tone' and 'grated' relate to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a train using the Auditory modality.",
+        "output": "The whistle shrieked as wheels clattered.",
+        "type": "generation"
+    },
+    {
+        "input": "The crowd murmured in anticipation.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m tuning into your idea'?",
+        "output": "This is Auditory because 'tuning' suggests adjusting to a sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a clock using Auditory.",
+        "output": "The gears ticked in steady rhythm.",
+        "type": "generation"
+    },
+    {
+        "input": "The violin sang a mournful tune.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "Waves crashed with a deafening roar.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s music to my ears'?",
+        "output": "This is Auditory because 'music' and 'ears' tie to hearing.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a dog using Auditory.",
+        "output": "Its bark echoed sharply across the yard.",
+        "type": "generation"
+    },
+    {
+        "input": "The rope burned my hands as I pulled.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m holding onto hope'?",
+        "output": "This is Kinesthetic because 'holding' implies a physical grip.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using the Kinesthetic modality.",
+        "output": "The water shoved me with a cold, heavy push.",
+        "type": "generation"
+    },
+    {
+        "input": "The chair sank under his weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This cuts deep'?",
+        "output": "This is Kinesthetic because 'cuts' suggests a felt impact.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a breeze using Kinesthetic.",
+        "output": "The air brushed lightly against my face.",
+        "type": "generation"
+    },
+    {
+        "input": "My muscles ached after the climb.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The handshake was firm and steady.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a firm grasp on it'?",
+        "output": "This is Kinesthetic because 'grasp' ties to physical control.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a book using Kinesthetic.",
+        "output": "The pages felt crisp under my fingers.",
+        "type": "generation"
+    },
+    {
+        "input": "The rain carried a fresh, earthy scent.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'Something smells fishy here'?",
+        "output": "This is Olfactory because 'smells' refers to scent detection.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a campfire using the Olfactory modality.",
+        "output": "The smoke drifted with a woody, charred aroma.",
+        "type": "generation"
+    },
+    {
+        "input": "The alley stank of stale garbage.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This reeks of desperation'?",
+        "output": "This is Olfactory because 'reeks' implies a strong smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "The wine danced with oaky undertones.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This leaves a sour note'?",
+        "output": "This is Gustatory because 'sour' describes a taste.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a dessert using the Gustatory modality.",
+        "output": "The chocolate melted with a rich, velvety sweetness.",
+        "type": "generation"
+    },
+    {
+        "input": "The stew burst with salty warmth.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s got a sharp tongue'?",
+        "output": "This is Gustatory because 'sharp' can imply a biting taste.",
+        "type": "explanation"
+    },
+    {
+        "input": "The city skyline glittered against the dusk.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The truth stared me in the face'?",
+        "output": "This is Visual because 'stared' and 'face' relate to seeing.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a lake using the Visual modality.",
+        "output": "The water mirrored the sky in a soft blue sheen.",
+        "type": "generation"
+    },
+    {
+        "input": "The spotlight carved a circle on the stage.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a shadowy deal'?",
+        "output": "This is Visual because 'shadowy' suggests dim visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a painting using Visual.",
+        "output": "The canvas bloomed with swirling yellows and reds.",
+        "type": "generation"
+    },
+    {
+        "input": "The fog blurred the trees into gray shapes.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "Her eyes sparkled with mischief.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I can\u2019t see a way out'?",
+        "output": "This is Visual because 'see' ties to visual perception.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a star using Visual.",
+        "output": "It twinkled like a tiny beacon in the black sky.",
+        "type": "generation"
+    },
+    {
+        "input": "The screen glowed with pixelated light.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The horizon stretched in a golden arc.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a bright future'?",
+        "output": "This is Visual because 'bright' implies light and vision.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a flower using Visual.",
+        "output": "Petals flared in a vivid crimson burst.",
+        "type": "generation"
+    },
+    {
+        "input": "The rain pattered against the window.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'Her voice rang with confidence'?",
+        "output": "This is Auditory because 'rang' and 'voice' tie to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using the Auditory modality.",
+        "output": "Horns blared amid the hum of traffic.",
+        "type": "generation"
+    },
+    {
+        "input": "The kettle whistled shrilly on the stove.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a loud complaint'?",
+        "output": "This is Auditory because 'loud' describes sound intensity.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Auditory.",
+        "output": "Its song trilled through the morning air.",
+        "type": "generation"
+    },
+    {
+        "input": "The door creaked on rusty hinges.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The audience clapped in a rolling wave.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m hearing you out'?",
+        "output": "This is Auditory because 'hearing' relates to listening.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bell using Auditory.",
+        "output": "It chimed with a clear, resonant peal.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind howled through the canyon.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "His shout bounced off the walls.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a quiet victory'?",
+        "output": "This is Auditory because 'quiet' refers to low sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a stream using Auditory.",
+        "output": "The water gurgled over smooth stones.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice chilled my fingertips.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m leaning toward your idea'?",
+        "output": "This is Kinesthetic because 'leaning' suggests physical inclination.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using the Kinesthetic modality.",
+        "output": "The wind pummeled me with fierce gusts.",
+        "type": "generation"
+    },
+    {
+        "input": "The mattress sagged under my weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This rubs me the wrong way'?",
+        "output": "This is Kinesthetic because 'rubs' implies a tactile irritation.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a cat using Kinesthetic.",
+        "output": "Its fur brushed softly against my leg.",
+        "type": "generation"
+    },
+    {
+        "input": "The climb left my legs trembling.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The hammer struck with a solid jolt.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s got a soft touch'?",
+        "output": "This is Kinesthetic because 'touch' ties to physical sensation.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a ball using Kinesthetic.",
+        "output": "It bounced with a firm, springy thud.",
+        "type": "generation"
+    },
+    {
+        "input": "The heat pressed against my skin.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The fabric stretched tight in my grip.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m falling behind'?",
+        "output": "This is Kinesthetic because 'falling' suggests a physical drop.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe snow using Kinesthetic.",
+        "output": "It crunched under my boots with every step.",
+        "type": "generation"
+    },
+    {
+        "input": "The ocean breeze smelled of salt and seaweed.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This plan smells rotten'?",
+        "output": "This is Olfactory because 'smells' and 'rotten' tie to scent.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a market using the Olfactory modality.",
+        "output": "The stalls wafted with scents of fish and herbs.",
+        "type": "generation"
+    },
+    {
+        "input": "The leather carried a rich, musky whiff.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I sniffed out the truth'?",
+        "output": "This is Olfactory because 'sniffed' relates to smelling.",
+        "type": "explanation"
+    },
+    {
+        "input": "The apple crunched with a sweet tang.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This is a bitter pill to take'?",
+        "output": "This is Gustatory because 'bitter' and 'pill' tie to taste.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a spice using the Gustatory modality.",
+        "output": "The chili flared with a fiery, sharp bite.",
+        "type": "generation"
+    },
+    {
+        "input": "The tea soothed with a mild, floral flavor.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He savored the moment'?",
+        "output": "This is Gustatory because 'savored' implies tasting enjoyment.",
+        "type": "explanation"
+    },
+    {
+        "input": "The desert shimmered with waves of heat.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The path ahead looks clear'?",
+        "output": "This is Visual because 'looks' and 'clear' relate to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a moon using the Visual modality.",
+        "output": "It hung in the sky, a pale silver disc.",
+        "type": "generation"
+    },
+    {
+        "input": "The headlights pierced the foggy night.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s in the spotlight now'?",
+        "output": "This is Visual because 'spotlight' implies being visibly highlighted.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a market using Visual.",
+        "output": "Stalls gleamed with piles of bright fruit.",
+        "type": "generation"
+    },
+    {
+        "input": "The shadow stretched long across the lawn.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The fireworks painted the sky with light.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a vivid memory'?",
+        "output": "This is Visual because 'vivid' suggests clear, colorful imagery.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rainbow using Visual.",
+        "output": "Bands of color arched across the misty air.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice glinted under the morning sun.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The stage glowed with dramatic hues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s a shining example'?",
+        "output": "This is Visual because 'shining' ties to visible light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a lamp using Visual.",
+        "output": "It cast a warm, amber glow across the room.",
+        "type": "generation"
+    },
+    {
+        "input": "The horizon faded into a purple haze.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The thunder rumbled low and deep.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His words buzzed in my head'?",
+        "output": "This is Auditory because 'buzzed' suggests a sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a beach using the Auditory modality.",
+        "output": "Waves hissed as they rolled onto the shore.",
+        "type": "generation"
+    },
+    {
+        "input": "The guitar twanged a sharp note.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a shrill excuse'?",
+        "output": "This is Auditory because 'shrill' describes a high-pitched sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a car using Auditory.",
+        "output": "The engine purred as it idled.",
+        "type": "generation"
+    },
+    {
+        "input": "The leaves crunched underfoot.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The radio crackled with static.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m all ears'?",
+        "output": "This is Auditory because 'ears' ties to listening.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a frog using Auditory.",
+        "output": "Its croak echoed through the still night.",
+        "type": "generation"
+    },
+    {
+        "input": "The clock ticked relentlessly.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The horn blared a sharp warning.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a whisper of a chance'?",
+        "output": "This is Auditory because 'whisper' implies a soft sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a crowd using Auditory.",
+        "output": "Voices chattered in a lively roar.",
+        "type": "generation"
+    },
+    {
+        "input": "The phone buzzed on the table.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The sand shifted beneath my toes.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m bending over backwards here'?",
+        "output": "This is Kinesthetic because 'bending' suggests physical effort.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a chair using the Kinesthetic modality.",
+        "output": "It cradled me with a soft, cushioned embrace.",
+        "type": "generation"
+    },
+    {
+        "input": "The cold glass numbed my palm.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s a heavy hitter'?",
+        "output": "This is Kinesthetic because 'heavy' and 'hitter' imply physical force.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a river using Kinesthetic.",
+        "output": "The current tugged at my legs with steady pull.",
+        "type": "generation"
+    },
+    {
+        "input": "The jacket hugged my shoulders snugly.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The punch landed with a jarring thud.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m stumbling through this'?",
+        "output": "This is Kinesthetic because 'stumbling' suggests physical faltering.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a dance using Kinesthetic.",
+        "output": "My hips swayed with a smooth, flowing rhythm.",
+        "type": "generation"
+    },
+    {
+        "input": "The stairs creaked under my weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The breeze tugged at my hair.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s got a light touch'?",
+        "output": "This is Kinesthetic because 'touch' and 'light' tie to sensation.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rug using Kinesthetic.",
+        "output": "It felt plush and thick under my bare feet.",
+        "type": "generation"
+    },
+    {
+        "input": "The rope strained in my grip.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The flowers breathed a sweet perfume.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells like trouble'?",
+        "output": "This is Olfactory because 'smells' detects something via scent.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using the Olfactory modality.",
+        "output": "The air hung heavy with the scent of moss.",
+        "type": "generation"
+    },
+    {
+        "input": "The paint fumes stung my nose.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I caught a whiff of success'?",
+        "output": "This is Olfactory because 'whiff' relates to smelling.",
+        "type": "explanation"
+    },
+    {
+        "input": "The soup warmed with a peppery kick.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like defeat'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor perception.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a fruit using the Gustatory modality.",
+        "output": "The peach melted with a juicy, honeyed sweetness.",
+        "type": "generation"
+    },
+    {
+        "input": "The vinegar puckered my lips.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a salty attitude'?",
+        "output": "This is Gustatory because 'salty' describes a taste-like trait.",
+        "type": "explanation"
+    },
+    {
+        "input": "The snow gleamed white under the moon.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The mistake glared at me'?",
+        "output": "This is Visual because 'glared' suggests obvious visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bridge using the Visual modality.",
+        "output": "It arched gracefully against the gray sky.",
+        "type": "generation"
+    },
+    {
+        "input": "The lantern flickered in the dim alley.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see through his lies'?",
+        "output": "This is Visual because 'see' implies visual insight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Visual.",
+        "output": "Lightning streaked across the dark clouds.",
+        "type": "generation"
+    },
+    {
+        "input": "The mirror reflected a distorted image.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The sunset bled red into the sea.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a colorful story'?",
+        "output": "This is Visual because 'colorful' ties to vivid imagery.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a tree using Visual.",
+        "output": "Its branches twisted in a stark silhouette.",
+        "type": "generation"
+    },
+    {
+        "input": "The crystal caught the light in prisms.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The banner fluttered in bold stripes.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a dark past'?",
+        "output": "This is Visual because 'dark' suggests a lack of light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a dress using Visual.",
+        "output": "It shimmered in a cascade of silver sequins.",
+        "type": "generation"
+    },
+    {
+        "input": "The road vanished into a misty blur.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The owl hooted in the stillness.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'Her laugh rang out loud'?",
+        "output": "This is Auditory because 'rang' and 'loud' relate to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a market using the Auditory modality.",
+        "output": "Vendors shouted over the clatter of coins.",
+        "type": "generation"
+    },
+    {
+        "input": "The chains rattled as they dropped.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a sharp retort'?",
+        "output": "This is Auditory because 'sharp' can imply a cutting sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Auditory.",
+        "output": "Branches snapped under distant footsteps.",
+        "type": "generation"
+    },
+    {
+        "input": "The bell tolled a somber note.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The engine growled as it started.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear a rumor brewing'?",
+        "output": "This is Auditory because 'hear' ties to sound perception.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Rain drummed hard on the tin roof.",
+        "type": "generation"
+    },
+    {
+        "input": "The footsteps echoed down the hall.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The violin screeched a high pitch.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a deafening silence'?",
+        "output": "This is Auditory because 'deafening' relates to sound absence.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a train using Auditory.",
+        "output": "Its horn moaned in the foggy distance.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind chimes tinkled faintly.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The stone felt cold and rough.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m wrestling with this choice'?",
+        "output": "This is Kinesthetic because 'wrestling' suggests physical struggle.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a coat using the Kinesthetic modality.",
+        "output": "It weighed heavy on my shoulders with warmth.",
+        "type": "generation"
+    },
+    {
+        "input": "The kick landed with a solid thump.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s pushing my buttons'?",
+        "output": "This is Kinesthetic because 'pushing' implies physical action.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a hug using Kinesthetic.",
+        "output": "Arms tightened around me in a firm squeeze.",
+        "type": "generation"
+    },
+    {
+        "input": "The gravel crunched under my heels.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The bag slumped against the wall.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m on shaky ground'?",
+        "output": "This is Kinesthetic because 'shaky' suggests unstable footing.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It rocked me with a gentle, rolling push.",
+        "type": "generation"
+    },
+    {
+        "input": "The heat sank into my bones.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The handle resisted my twist.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a strong grip on this'?",
+        "output": "This is Kinesthetic because 'grip' ties to physical hold.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a pillow using Kinesthetic.",
+        "output": "It sank softly beneath my head.",
+        "type": "generation"
+    },
+    {
+        "input": "The belt tightened around my waist.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The attic smelled of dust and cedar.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This stinks of betrayal'?",
+        "output": "This is Olfactory because 'stinks' implies a bad smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a beach using the Olfactory modality.",
+        "output": "The air carried a briny tang of the sea.",
+        "type": "generation"
+    },
+    {
+        "input": "The candle wafted a hint of vanilla.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I smell something cooking'?",
+        "output": "This is Olfactory because 'smell' relates to scent detection.",
+        "type": "explanation"
+    },
+    {
+        "input": "The beer fizzed with a crisp bite.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes too good to be true'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a meal using the Gustatory modality.",
+        "output": "The roast melted with a savory, herb-rich depth.",
+        "type": "generation"
+    },
+    {
+        "input": "The candy stung with sour lemon.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s licking his wounds'?",
+        "output": "This is Gustatory because 'licking' implies tasting recovery.",
+        "type": "explanation"
+    },
+    {
+        "input": "The valley glowed with golden fields.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The solution appeared suddenly'?",
+        "output": "This is Visual because 'appeared' ties to becoming visible.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a cave using the Visual modality.",
+        "output": "Shadows draped the walls in eerie patterns.",
+        "type": "generation"
+    },
+    {
+        "input": "The traffic lights blinked in sequence.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a glaring oversight'?",
+        "output": "This is Visual because 'glaring' suggests obvious visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a river using Visual.",
+        "output": "It snaked through the land in a silver ribbon.",
+        "type": "generation"
+    },
+    {
+        "input": "The banner flared in bright reds.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The stars pierced the velvet sky.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a clear vision'?",
+        "output": "This is Visual because 'vision' and 'clear' relate to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a clock using Visual.",
+        "output": "Its hands traced a slow arc across the face.",
+        "type": "generation"
+    },
+    {
+        "input": "The curtains shimmered in the breeze.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The peak loomed in stark white.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a dim prospect'?",
+        "output": "This is Visual because 'dim' implies low light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a car using Visual.",
+        "output": "Its chrome gleamed under the streetlights.",
+        "type": "generation"
+    },
+    {
+        "input": "The horizon burned with orange streaks.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The tires screeched on the pavement.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His words hummed with energy'?",
+        "output": "This is Auditory because 'hummed' suggests a sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a party using the Auditory modality.",
+        "output": "Laughter mingled with the thump of music.",
+        "type": "generation"
+    },
+    {
+        "input": "The gate clanged shut behind me.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a muted response'?",
+        "output": "This is Auditory because 'muted' refers to softened sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a river using Auditory.",
+        "output": "It splashed and gurgled over the rocks.",
+        "type": "generation"
+    },
+    {
+        "input": "The crowd roared with approval.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The wind whistled through the cracks.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the clock ticking'?",
+        "output": "This is Auditory because 'hear' and 'ticking' tie to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a cat using Auditory.",
+        "output": "Its purr rumbled low and steady.",
+        "type": "generation"
+    },
+    {
+        "input": "The alarm blared through the silence.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The leaves rustled in the treetops.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s got a loud personality'?",
+        "output": "This is Auditory because 'loud' describes sound intensity.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a fire using Auditory.",
+        "output": "Logs crackled and popped in the flames.",
+        "type": "generation"
+    },
+    {
+        "input": "The bell jingled as the door opened.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The mud sucked at my boots.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m juggling too much'?",
+        "output": "This is Kinesthetic because 'juggling' implies physical balancing.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bed using the Kinesthetic modality.",
+        "output": "It sank beneath me in a soft, warm cocoon.",
+        "type": "generation"
+    },
+    {
+        "input": "The slap stung my cheek.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s pulling my leg'?",
+        "output": "This is Kinesthetic because 'pulling' suggests physical tugging.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Kinesthetic.",
+        "output": "Rain pelted my face with sharp, wet stabs.",
+        "type": "generation"
+    },
+    {
+        "input": "The handlebars vibrated in my hands.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The blanket draped heavy over my legs.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m walking on eggshells'?",
+        "output": "This is Kinesthetic because 'walking' implies cautious movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a ball using Kinesthetic.",
+        "output": "It rolled with a smooth, light bounce.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost bit at my fingertips.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The chair rocked with a gentle sway.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s carrying a heavy load'?",
+        "output": "This is Kinesthetic because 'carrying' ties to physical burden.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a shoe using Kinesthetic.",
+        "output": "It pressed snugly against my heel.",
+        "type": "generation"
+    },
+    {
+        "input": "The rope whipped against my arm.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The barn smelled of hay and manure.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This reeks of arrogance'?",
+        "output": "This is Olfactory because 'reeks' implies a strong smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using the Olfactory modality.",
+        "output": "Exhaust mingled with the scent of street food.",
+        "type": "generation"
+    },
+    {
+        "input": "The pine trees exhaled a crisp aroma.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I sniffed out a bargain'?",
+        "output": "This is Olfactory because 'sniffed' relates to smelling.",
+        "type": "explanation"
+    },
+    {
+        "input": "The sauce zinged with spicy heat.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This leaves a bad taste'?",
+        "output": "This is Gustatory because 'taste' ties to flavor perception.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a drink using the Gustatory modality.",
+        "output": "The coffee warmed with a bold, nutty richness.",
+        "type": "generation"
+    },
+    {
+        "input": "The bread crusted with a subtle saltiness.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She savored the praise'?",
+        "output": "This is Gustatory because 'savored' implies tasting enjoyment.",
+        "type": "explanation"
+    },
+    {
+        "input": "The waves sparkled under the midday sun.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The plan looks solid'?",
+        "output": "This is Visual because 'looks' ties to visual judgment.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a mountain using the Visual modality.",
+        "output": "Its ridges cut a jagged line against the sky.",
+        "type": "generation"
+    },
+    {
+        "input": "The sign glowed neon green in the dark.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see the bigger picture'?",
+        "output": "This is Visual because 'see' and 'picture' relate to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a street using Visual.",
+        "output": "Lights streaked in blurred lines from passing cars.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost painted patterns on the glass.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The skyline twinkled with distant windows.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a bright spot'?",
+        "output": "This is Visual because 'bright' suggests light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a cloud using Visual.",
+        "output": "It drifted in a fluffy white mound.",
+        "type": "generation"
+    },
+    {
+        "input": "The fabric shimmered with metallic threads.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The shadow crept across the floor.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s a shadowy figure'?",
+        "output": "This is Visual because 'shadowy' implies dim visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a book using Visual.",
+        "output": "Its cover gleamed with embossed gold letters.",
+        "type": "generation"
+    },
+    {
+        "input": "The dawn broke in soft pinks.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The horn blasted through the fog.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His voice droned on'?",
+        "output": "This is Auditory because 'voice' and 'droned' tie to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a street using the Auditory modality.",
+        "output": "Footsteps clacked against the cobblestones.",
+        "type": "generation"
+    },
+    {
+        "input": "The kettle hissed as it boiled.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a shrill cry'?",
+        "output": "This is Auditory because 'shrill' describes a piercing sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Auditory.",
+        "output": "Its call chirped brightly in the trees.",
+        "type": "generation"
+    },
+    {
+        "input": "The door slammed with a loud bang.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The stream bubbled over the pebbles.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m tuning out the noise'?",
+        "output": "This is Auditory because 'tuning' and 'noise' relate to hearing.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a clock using Auditory.",
+        "output": "Its chime rang out every hour.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind moaned through the eaves.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The speaker crackled with feedback.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a soft whisper'?",
+        "output": "This is Auditory because 'whisper' implies a quiet sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a dog using Auditory.",
+        "output": "Its growl rumbled low and deep.",
+        "type": "generation"
+    },
+    {
+        "input": "The coins jingled in his pocket.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The grass tickled my bare feet.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m sinking into despair'?",
+        "output": "This is Kinesthetic because 'sinking' suggests physical descent.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a blanket using the Kinesthetic modality.",
+        "output": "It draped over me with a gentle weight.",
+        "type": "generation"
+    },
+    {
+        "input": "The ball bounced with a firm thud.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got me cornered'?",
+        "output": "This is Kinesthetic because 'cornered' implies physical restriction.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a breeze using Kinesthetic.",
+        "output": "It tugged lightly at my sleeves.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice slipped through my fingers.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The chair creaked as I leaned back.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m grasping at straws'?",
+        "output": "This is Kinesthetic because 'grasping' ties to physical reaching.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a hug using Kinesthetic.",
+        "output": "It pressed me close with a warm hold.",
+        "type": "generation"
+    },
+    {
+        "input": "The sandpaper rasped against my palm.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The bag swung heavy in my hand.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s a steady hand'?",
+        "output": "This is Kinesthetic because 'steady' suggests physical stability.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a shoe using Kinesthetic.",
+        "output": "It gripped my foot with a tight fit.",
+        "type": "generation"
+    },
+    {
+        "input": "The ladder wobbled under my climb.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The garage smelled of oil and rubber.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells like a setup'?",
+        "output": "This is Olfactory because 'smells' implies scent suspicion.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a garden using the Olfactory modality.",
+        "output": "Lavender drifted through the warm air.",
+        "type": "generation"
+    },
+    {
+        "input": "The swamp reeked of stagnant water.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I caught a whiff of danger'?",
+        "output": "This is Olfactory because 'whiff' relates to smelling.",
+        "type": "explanation"
+    },
+    {
+        "input": "The orange burst with juicy zest.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like victory'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a cake using the Gustatory modality.",
+        "output": "It melted with a creamy, chocolate richness.",
+        "type": "generation"
+    },
+    {
+        "input": "The pickle snapped with a tart crunch.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a bitter edge'?",
+        "output": "This is Gustatory because 'bitter' describes a taste-like trait.",
+        "type": "explanation"
+    },
+    {
+        "input": "The forest shimmered with dew-lit leaves.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The goal is in sight'?",
+        "output": "This is Visual because 'in sight' ties to visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using the Visual modality.",
+        "output": "Towers gleamed in a patchwork of glass and steel.",
+        "type": "generation"
+    },
+    {
+        "input": "The candle flickered in a warm pool of light.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a dazzling performance'?",
+        "output": "This is Visual because 'dazzling' suggests bright visuals.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Visual.",
+        "output": "Clouds churned in a dark, swirling mass.",
+        "type": "generation"
+    },
+    {
+        "input": "The lake reflected the stars like a mirror.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The dress sparkled with tiny beads.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m blinded by the options'?",
+        "output": "This is Visual because 'blinded' relates to sight overload.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a flower using Visual.",
+        "output": "Its petals flared in a delicate pink bloom.",
+        "type": "generation"
+    },
+    {
+        "input": "The screen flashed with bold graphics.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The fog swallowed the distant hills.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a clear shot'?",
+        "output": "This is Visual because 'clear' and 'shot' tie to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Visual.",
+        "output": "Its wings sliced the air in a flash of red.",
+        "type": "generation"
+    },
+    {
+        "input": "The sunrise painted the clouds gold.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The thunder clapped with a sudden boom.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His tone chimed with joy'?",
+        "output": "This is Auditory because 'tone' and 'chimed' relate to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using the Auditory modality.",
+        "output": "Twigs snapped beneath a chorus of birds.",
+        "type": "generation"
+    },
+    {
+        "input": "The fan whirred in the quiet room.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a loud argument'?",
+        "output": "This is Auditory because 'loud' describes sound volume.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a train using Auditory.",
+        "output": "Wheels screeched as it slowed to a halt.",
+        "type": "generation"
+    },
+    {
+        "input": "The baby cooed softly in the crib.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The horn blared a long, sharp note.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the gears turning'?",
+        "output": "This is Auditory because 'hear' and 'gears' tie to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Wind howled as thunder growled nearby.",
+        "type": "generation"
+    },
+    {
+        "input": "The clock ticked with a steady beat.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The crowd cheered in a rising wave.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a faint echo'?",
+        "output": "This is Auditory because 'echo' implies a lingering sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bell using Auditory.",
+        "output": "It rang with a bright, piercing clang.",
+        "type": "generation"
+    },
+    {
+        "input": "The engine sputtered to a stop.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The water lapped gently at my ankles.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m slipping through the cracks'?",
+        "output": "This is Kinesthetic because 'slipping' suggests physical falling.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a coat using the Kinesthetic modality.",
+        "output": "It clung to me with a thick, woolen heft.",
+        "type": "generation"
+    },
+    {
+        "input": "The punch jolted my shoulder.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s dragging his feet'?",
+        "output": "This is Kinesthetic because 'dragging' implies physical resistance.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a dance using Kinesthetic.",
+        "output": "My feet glided across the floor with ease.",
+        "type": "generation"
+    },
+    {
+        "input": "The heat weighed on my chest.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The rope burned as it slid through my hands.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m holding it together'?",
+        "output": "This is Kinesthetic because 'holding' suggests physical effort.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a chair using Kinesthetic.",
+        "output": "It pressed hard against my back.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice chilled my grip.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The mattress yielded under my weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s got a firm stance'?",
+        "output": "This is Kinesthetic because 'stance' ties to physical posture.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It shoved me back with a forceful surge.",
+        "type": "generation"
+    },
+    {
+        "input": "The fabric stretched tight across my skin.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The market smelled of ripe fruit and smoke.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells like a scam'?",
+        "output": "This is Olfactory because 'smells' implies scent suspicion.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a kitchen using the Olfactory modality.",
+        "output": "Garlic and butter wafted from the stove.",
+        "type": "generation"
+    },
+    {
+        "input": "The wet dog reeked of damp fur.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I sniffed out the lie'?",
+        "output": "This is Olfactory because 'sniffed' relates to smelling.",
+        "type": "explanation"
+    },
+    {
+        "input": "The lime snapped with a sour zing.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like a lie'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor perception.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a dessert using the Gustatory modality.",
+        "output": "The pie warmed with a spiced, apple tang.",
+        "type": "generation"
+    },
+    {
+        "input": "The broth soothed with a rich umami.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a sweet deal'?",
+        "output": "This is Gustatory because 'sweet' describes a taste-like quality.",
+        "type": "explanation"
+    },
+    {
+        "input": "The cliffs glowed red in the sunset.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The flaw stands out'?",
+        "output": "This is Visual because 'stands out' ties to visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using the Visual modality.",
+        "output": "Trees loomed in a dense green haze.",
+        "type": "generation"
+    },
+    {
+        "input": "The spotlight swept across the crowd.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see the light now'?",
+        "output": "This is Visual because 'see' and 'light' relate to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a building using Visual.",
+        "output": "Its windows glinted in a grid of gold.",
+        "type": "generation"
+    },
+    {
+        "input": "The moon cast a pale glow on the snow.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The banner flashed in bold letters.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a vivid dream'?",
+        "output": "This is Visual because 'vivid' suggests clear imagery.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a sunset using Visual.",
+        "output": "The sky blazed with streaks of violet and orange.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice sparkled like shattered glass.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The horizon blurred into the sea.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s a bright spark'?",
+        "output": "This is Visual because 'bright' implies light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a star using Visual.",
+        "output": "It pulsed with a faint, silver shimmer.",
+        "type": "generation"
+    },
+    {
+        "input": "The wall gleamed with fresh paint.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The waves crashed with a rhythmic roar.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'Her voice sang with pride'?",
+        "output": "This is Auditory because 'voice' and 'sang' tie to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using the Auditory modality.",
+        "output": "Sirens wailed amid the drone of engines.",
+        "type": "generation"
+    },
+    {
+        "input": "The lock clicked into place.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a sharp tone'?",
+        "output": "This is Auditory because 'sharp' describes a cutting sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a dog using Auditory.",
+        "output": "Its bark snapped through the quiet air.",
+        "type": "generation"
+    },
+    {
+        "input": "The violin wailed a haunting melody.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The wind chattered through the leaves.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear a buzz of excitement'?",
+        "output": "This is Auditory because 'hear' and 'buzz' relate to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a fire using Auditory.",
+        "output": "Flames hissed as they licked the wood.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots thumped on the wooden floor.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The radio hummed a faint tune.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a quiet threat'?",
+        "output": "This is Auditory because 'quiet' refers to low sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bell using Auditory.",
+        "output": "It tolled with a deep, resonant hum.",
+        "type": "generation"
+    },
+    {
+        "input": "The gate squeaked as it swung open.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The snow crunched beneath my soles.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m tripping over my words'?",
+        "output": "This is Kinesthetic because 'tripping' suggests physical stumbling.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a pillow using the Kinesthetic modality.",
+        "output": "It yielded with a plush, airy softness.",
+        "type": "generation"
+    },
+    {
+        "input": "The blow rattled my teeth.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s pushing the limits'?",
+        "output": "This is Kinesthetic because 'pushing' implies physical force.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Kinesthetic.",
+        "output": "The wind slammed against my body.",
+        "type": "generation"
+    },
+    {
+        "input": "The jacket stiffened in the cold.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The ball thudded against my palm.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m standing my ground'?",
+        "output": "This is Kinesthetic because 'standing' ties to physical resolve.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rug using Kinesthetic.",
+        "output": "It brushed my toes with a fuzzy warmth.",
+        "type": "generation"
+    },
+    {
+        "input": "The reins jerked in my hands.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The chair tilted under my shift.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s got a heavy heart'?",
+        "output": "This is Kinesthetic because 'heavy' suggests felt weight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It lifted me with a buoyant shove.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost stung my cheeks.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The cellar smelled of mold and earth.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This stinks of failure'?",
+        "output": "This is Olfactory because 'stinks' implies a bad smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using the Olfactory modality.",
+        "output": "Rain brought a sharp, clean scent.",
+        "type": "generation"
+    },
+    {
+        "input": "The cigar puffed a thick, woody aroma.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I smell a victory coming'?",
+        "output": "This is Olfactory because 'smell' relates to scent detection.",
+        "type": "explanation"
+    },
+    {
+        "input": "The tea tingled with a minty chill.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like trouble'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a fruit using the Gustatory modality.",
+        "output": "The berry burst with a tart, sweet rush.",
+        "type": "generation"
+    },
+    {
+        "input": "The cheese melted with a creamy tang.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a sour mood'?",
+        "output": "This is Gustatory because 'sour' describes a taste-like quality.",
+        "type": "explanation"
+    },
+    {
+        "input": "The ocean shimmered in endless blues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The truth is plain to see'?",
+        "output": "This is Visual because 'see' and 'plain' tie to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a desert using the Visual modality.",
+        "output": "Dunes stretched in a golden, rippling expanse.",
+        "type": "generation"
+    },
+    {
+        "input": "The fire flared with vivid sparks.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a glowing reputation'?",
+        "output": "This is Visual because 'glowing' suggests light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a market using Visual.",
+        "output": "Colors popped from stacks of woven rugs.",
+        "type": "generation"
+    },
+    {
+        "input": "The glass glittered with rainbow hues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The shadow danced on the wall.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a dark secret'?",
+        "output": "This is Visual because 'dark' implies hidden visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a moon using Visual.",
+        "output": "It loomed in a ghostly white crescent.",
+        "type": "generation"
+    },
+    {
+        "input": "The billboard blazed with neon ads.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The frost sparkled on the branches.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see a silver lining'?",
+        "output": "This is Visual because 'see' and 'silver' relate to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a car using Visual.",
+        "output": "Its curves gleamed in sleek black polish.",
+        "type": "generation"
+    },
+    {
+        "input": "The sky faded to a soft gray.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The drum thumped a steady beat.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His laugh rang hollow'?",
+        "output": "This is Auditory because 'rang' and 'laugh' tie to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a beach using the Auditory modality.",
+        "output": "Gulls cried over the crash of waves.",
+        "type": "generation"
+    },
+    {
+        "input": "The chain rattled against the fence.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a dull roar'?",
+        "output": "This is Auditory because 'roar' and 'dull' describe sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Auditory.",
+        "output": "Wind whispered through the pine needles.",
+        "type": "generation"
+    },
+    {
+        "input": "The siren wailed in the distance.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The clock chimed midnight.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the wheels spinning'?",
+        "output": "This is Auditory because 'hear' and 'spinning' tie to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a cat using Auditory.",
+        "output": "Its meow pierced the quiet night.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots squeaked on the wet floor.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The radio buzzed with faint voices.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a loud wake-up call'?",
+        "output": "This is Auditory because 'loud' refers to sound intensity.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Thunder boomed as rain pattered down.",
+        "type": "generation"
+    },
+    {
+        "input": "The engine growled to life.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The clay squished between my fingers.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m stretching the truth'?",
+        "output": "This is Kinesthetic because 'stretching' suggests physical pull.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bed using the Kinesthetic modality.",
+        "output": "It hugged me with a firm, cool softness.",
+        "type": "generation"
+    },
+    {
+        "input": "The tackle jolted my spine.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s throwing his weight around'?",
+        "output": "This is Kinesthetic because 'throwing' implies physical force.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a breeze using Kinesthetic.",
+        "output": "It grazed my skin with a light chill.",
+        "type": "generation"
+    },
+    {
+        "input": "The handle dug into my palm.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The chair rocked under my weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m on solid footing'?",
+        "output": "This is Kinesthetic because 'footing' ties to physical stability.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a ball using Kinesthetic.",
+        "output": "It smacked my hand with a sharp sting.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice slipped under my boots.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The blanket settled with a heavy warmth.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s got a light step'?",
+        "output": "This is Kinesthetic because 'step' and 'light' tie to movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rug using Kinesthetic.",
+        "output": "It sank under my feet with a thick pile.",
+        "type": "generation"
+    },
+    {
+        "input": "The reins pulled taut in my grip.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The street smelled of rain and asphalt.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This reeks of trouble'?",
+        "output": "This is Olfactory because 'reeks' implies a strong smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using the Olfactory modality.",
+        "output": "Pine and damp soil hung in the air.",
+        "type": "generation"
+    },
+    {
+        "input": "The smoke carried a bitter tang.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I smell a rat here'?",
+        "output": "This is Olfactory because 'smell' relates to scent suspicion.",
+        "type": "explanation"
+    },
+    {
+        "input": "The jam spread with a sticky sweetness.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like success'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a drink using the Gustatory modality.",
+        "output": "The soda fizzed with a sharp, citrus bite.",
+        "type": "generation"
+    },
+    {
+        "input": "The steak sizzled with a savory depth.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s got a bitter tone'?",
+        "output": "This is Gustatory because 'bitter' describes a taste-like quality.",
+        "type": "explanation"
+    },
+    {
+        "input": "The meadow glowed with wildflower hues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The end is in view'?",
+        "output": "This is Visual because 'in view' ties to visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a lake using the Visual modality.",
+        "output": "Its surface gleamed like polished glass.",
+        "type": "generation"
+    },
+    {
+        "input": "The neon sign pulsed in the night.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a glaring success'?",
+        "output": "This is Visual because 'glaring' suggests obvious visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Visual.",
+        "output": "Clouds towered in a dark, menacing swirl.",
+        "type": "generation"
+    },
+    {
+        "input": "The diamond sparkled with tiny rainbows.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The road stretched into a hazy line.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see the point now'?",
+        "output": "This is Visual because 'see' relates to visual understanding.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a tree using Visual.",
+        "output": "Its leaves shimmered in a green cascade.",
+        "type": "generation"
+    },
+    {
+        "input": "The curtains glowed with morning light.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The mountain loomed in a snowy peak.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s a shining star'?",
+        "output": "This is Visual because 'shining' implies light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a flower using Visual.",
+        "output": "Its petals flared in a bold yellow burst.",
+        "type": "generation"
+    },
+    {
+        "input": "The sky burned with a crimson dusk.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The bell rang with a crisp tone.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'Her words echoed in silence'?",
+        "output": "This is Auditory because 'echoed' ties to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a market using the Auditory modality.",
+        "output": "Hawkers shouted over the clink of coins.",
+        "type": "generation"
+    },
+    {
+        "input": "The tires hummed on the highway.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That\u2019s a loud claim'?",
+        "output": "This is Auditory because 'loud' describes sound intensity.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Auditory.",
+        "output": "Its whistle pierced the dawn air.",
+        "type": "generation"
+    },
+    {
+        "input": "The door creaked as it closed.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The crowd buzzed with excitement.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the tide turning'?",
+        "output": "This is Auditory because 'hear' and 'turning' tie to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Lightning cracked as wind roared.",
+        "type": "generation"
+    },
+    {
+        "input": "The violin sang a sweet note.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The boots thudded on the stairs.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It\u2019s a soft murmur'?",
+        "output": "This is Auditory because 'murmur' implies a quiet sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a dog using Auditory.",
+        "output": "Its howl rose sharp and mournful.",
+        "type": "generation"
+    },
+    {
+        "input": "The radio crackled with static.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The sand warmed my toes.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m bending under pressure'?",
+        "output": "This is Kinesthetic because 'bending' suggests physical strain.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a blanket using the Kinesthetic modality.",
+        "output": "It settled over me with a cozy heft.",
+        "type": "generation"
+    },
+    {
+        "input": "The kick jolted my shin.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s pulling strings'?",
+        "output": "This is Kinesthetic because 'pulling' implies physical control.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a dance using Kinesthetic.",
+        "output": "My body twisted with a fluid spin.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost bit at my knuckles.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The bag sagged in my grip.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I\u2019m falling apart'?",
+        "output": "This is Kinesthetic because 'falling' suggests physical collapse.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a chair using Kinesthetic.",
+        "output": "It creaked as I shifted my weight.",
+        "type": "generation"
+    },
+    {
+        "input": "The rope scraped my palms.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The mattress bounced under my jump.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She\u2019s got a steady grip'?",
+        "output": "This is Kinesthetic because 'grip' ties to physical hold.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It crashed against me with a cold slap.",
+        "type": "generation"
+    },
+    {
+        "input": "The belt hugged my waist tight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The bakery wafted with yeast and sugar.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells fishy'?",
+        "output": "This is Olfactory because 'smells' implies scent suspicion.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using the Olfactory modality.",
+        "output": "Diesel and coffee drifted through the streets.",
+        "type": "generation"
+    },
+    {
+        "input": "The mud stank of decay.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I sniffed out the plan'?",
+        "output": "This is Olfactory because 'sniffed' relates to smelling.",
+        "type": "explanation"
+    },
+    {
+        "input": "The soup tingled with a spicy warmth.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes stale'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a fruit using the Gustatory modality.",
+        "output": "The grape popped with a crisp, sweet juice.",
+        "type": "generation"
+    },
+    {
+        "input": "The chocolate melted with a bitter edge.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He\u2019s got a sweet smile'?",
+        "output": "This is Gustatory because 'sweet' describes a taste-like quality.",
+        "type": "explanation"
+    },
+    {
+        "input": "The flag waved in brilliant reds.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The horizon looks promising'?",
+        "output": "This is Visual because 'looks' ties to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a sunset using Visual.",
+        "output": "The sky flared with hues of pink and gold.",
+        "type": "generation"
+    },
+    {
+        "input": "The river glittered under the bridge.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a bright idea'?",
+        "output": "This is Visual because 'bright' implies light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Visual.",
+        "output": "Clouds rolled in a dark, ominous wave.",
+        "type": "generation"
+    },
+    {
+        "input": "The window reflected the city lights.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The hillside bloomed with purple patches.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see trouble ahead'?",
+        "output": "This is Visual because 'see' relates to vision.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Visual.",
+        "output": "Its wings flashed with streaks of green.",
+        "type": "generation"
+    },
+    {
+        "input": "The screen flared with sudden brightness.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The moon hung low in a silver glow.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a glaring flaw'?",
+        "output": "This is Visual because 'glaring' suggests visibility.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Visual.",
+        "output": "Buildings sparkled in a maze of steel.",
+        "type": "generation"
+    },
+    {
+        "input": "The snow glowed blue in the twilight.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The crowd rippled with colorful banners.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s a radiant beauty'?",
+        "output": "This is Visual because 'radiant' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a flower using Visual.",
+        "output": "Its petals shimmered in a soft lavender sheen.",
+        "type": "generation"
+    },
+    {
+        "input": "The lightning sliced the sky in half.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The painting glowed with bold strokes.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a shadowy plot'?",
+        "output": "This is Visual because 'shadowy' implies low light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a mountain using Visual.",
+        "output": "Its peaks pierced the clouds in sharp grays.",
+        "type": "generation"
+    },
+    {
+        "input": "The stars twinkled in a vast black sea.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The lamp cast a golden circle.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see a clear path'?",
+        "output": "This is Visual because 'see' and 'clear' tie to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Visual.",
+        "output": "It crested in a frothy white arc.",
+        "type": "generation"
+    },
+    {
+        "input": "The dawn shimmered with pastel light.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The bell clanged with a bright sound.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His shout rang clear'?",
+        "output": "This is Auditory because 'rang' ties to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Rain tapped a staccato beat on the roof.",
+        "type": "generation"
+    },
+    {
+        "input": "The engine roared to a start.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a loud promise'?",
+        "output": "This is Auditory because 'loud' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Auditory.",
+        "output": "Its chirp cut through the morning hush.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind whistled past my ears.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The crowd hummed with low chatter.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear a faint hope'?",
+        "output": "This is Auditory because 'hear' relates to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Auditory.",
+        "output": "Traffic growled in a constant rumble.",
+        "type": "generation"
+    },
+    {
+        "input": "The dog barked in short bursts.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The clock buzzed at dawn.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a sharp sound'?",
+        "output": "This is Auditory because 'sharp' describes audio.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Auditory.",
+        "output": "It crashed with a booming echo.",
+        "type": "generation"
+    },
+    {
+        "input": "The horn blared in the quiet street.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The violin screeched a high note.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s got a loud laugh'?",
+        "output": "This is Auditory because 'loud' ties to volume.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Auditory.",
+        "output": "Leaves rustled in a soft chorus.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots clomped on the porch.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The radio hissed with static.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the truth'?",
+        "output": "This is Auditory because 'hear' relates to listening.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a train using Auditory.",
+        "output": "Its rumble shook the distant tracks.",
+        "type": "generation"
+    },
+    {
+        "input": "The thunder rolled across the plains.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The gate banged shut.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a quiet hint'?",
+        "output": "This is Auditory because 'quiet' ties to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bell using Auditory.",
+        "output": "It pealed with a rich, echoing tone.",
+        "type": "generation"
+    },
+    {
+        "input": "The tires squealed on the turn.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The rug softened my footsteps.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m leaning on you'?",
+        "output": "This is Kinesthetic because 'leaning' suggests physical support.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Kinesthetic.",
+        "output": "The wind shoved me with icy blasts.",
+        "type": "generation"
+    },
+    {
+        "input": "The hammer felt heavy in my hand.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a tight hold'?",
+        "output": "This is Kinesthetic because 'hold' ties to grip.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a blanket using Kinesthetic.",
+        "output": "It wrapped me in a thick, warm layer.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice numbed my toes.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The door resisted my push.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m slipping away'?",
+        "output": "This is Kinesthetic because 'slipping' suggests movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It pulled me under with a strong tug.",
+        "type": "generation"
+    },
+    {
+        "input": "The sand grated against my skin.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The couch sagged under my weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s pushing forward'?",
+        "output": "This is Kinesthetic because 'pushing' implies force.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a ball using Kinesthetic.",
+        "output": "It struck my chest with a dull thud.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind pressed my jacket tight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The stone scraped my knee.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m falling into place'?",
+        "output": "This is Kinesthetic because 'falling' suggests motion.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a chair using Kinesthetic.",
+        "output": "It held me with a sturdy frame.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost stiffened my gloves.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The rope twisted in my fist.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a soft landing'?",
+        "output": "This is Kinesthetic because 'landing' ties to impact.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a breeze using Kinesthetic.",
+        "output": "It nudged me with a cool caress.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots gripped the muddy path.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The pillow sank under my cheek.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m holding my breath'?",
+        "output": "This is Kinesthetic because 'holding' suggests tension.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rug using Kinesthetic.",
+        "output": "It cushioned my steps with a soft bounce.",
+        "type": "generation"
+    },
+    {
+        "input": "The bread wafted a warm, yeasty scent.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells like a win'?",
+        "output": "This is Olfactory because 'smells' ties to scent.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Olfactory.",
+        "output": "The air thickened with a wet, ozone tang.",
+        "type": "generation"
+    },
+    {
+        "input": "The trash reeked of spoiled milk.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I sniffed out a clue'?",
+        "output": "This is Olfactory because 'sniffed' relates to smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "The forest breathed a sharp pine aroma.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This stinks of deceit'?",
+        "output": "This is Olfactory because 'stinks' implies a bad smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "The chimney puffed a smoky whiff.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The mango burst with a sweet zing.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like a trick'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Gustatory.",
+        "output": "The rain hinted at a faint, metallic bite.",
+        "type": "generation"
+    },
+    {
+        "input": "The lemon stung with a sour kick.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a spicy temper'?",
+        "output": "This is Gustatory because 'spicy' describes taste.",
+        "type": "explanation"
+    },
+    {
+        "input": "The cake melted with a rich vanilla.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This leaves a sweet aftertaste'?",
+        "output": "This is Gustatory because 'aftertaste' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "The broth warmed with a salty depth.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "The salsa danced with a fiery tang.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I savored the news'?",
+        "output": "This is Gustatory because 'savored' implies tasting enjoyment.",
+        "type": "explanation"
+    },
+    {
+        "input": "The sky blazed with fiery oranges.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The path gleams ahead'?",
+        "output": "This is Visual because 'gleams' ties to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a sunrise using Visual.",
+        "output": "The horizon ignited in streaks of red and yellow.",
+        "type": "generation"
+    },
+    {
+        "input": "The lake shimmered under the stars.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a dazzling display'?",
+        "output": "This is Visual because 'dazzling' suggests bright visuals.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Visual.",
+        "output": "Trees stood in a canopy of emerald green.",
+        "type": "generation"
+    },
+    {
+        "input": "The mirror reflected a vivid image.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The cliff loomed in stark shadows.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see the challenge'?",
+        "output": "This is Visual because 'see' relates to vision.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Visual.",
+        "output": "Its wings shimmered with streaks of gold.",
+        "type": "generation"
+    },
+    {
+        "input": "The neon lights pulsed in the night.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The snow sparkled with icy brilliance.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a shadowy corner'?",
+        "output": "This is Visual because 'shadowy' implies dim light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Visual.",
+        "output": "Skyscrapers glowed in a lattice of lights.",
+        "type": "generation"
+    },
+    {
+        "input": "The fog veiled the hills in gray.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The banner shone in vivid blues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s a glowing presence'?",
+        "output": "This is Visual because 'glowing' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a flower using Visual.",
+        "output": "Its petals radiated in a deep magenta hue.",
+        "type": "generation"
+    },
+    {
+        "input": "The fireworks burst in colorful explosions.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The painting shimmered with vibrant reds.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a bright horizon'?",
+        "output": "This is Visual because 'bright' suggests light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a river using Visual.",
+        "output": "It flowed in a silver thread through the valley.",
+        "type": "generation"
+    },
+    {
+        "input": "The stars twinkled in a clear night sky.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The lamp glowed with a soft amber light.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see a vibrant future'?",
+        "output": "This is Visual because 'see' and 'vibrant' tie to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Visual.",
+        "output": "It crested in a sparkling white foam.",
+        "type": "generation"
+    },
+    {
+        "input": "The sunset painted the clouds in purples.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The dawn broke with a rosy glow.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a clear view'?",
+        "output": "This is Visual because 'clear' and 'view' relate to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a mountain using Visual.",
+        "output": "Its peaks rose in jagged, snowy silhouettes.",
+        "type": "generation"
+    },
+    {
+        "input": "The horizon shimmered in golden hues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The rain drummed on the roof.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His voice resonated deeply'?",
+        "output": "This is Auditory because 'resonated' ties to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Thunder boomed over the hiss of rain.",
+        "type": "generation"
+    },
+    {
+        "input": "The bell chimed a clear note.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a loud announcement'?",
+        "output": "This is Auditory because 'loud' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Auditory.",
+        "output": "Its song warbled through the dawn.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind howled through the trees.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The crowd cheered in a thunderous wave.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear a distant call'?",
+        "output": "This is Auditory because 'hear' relates to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Auditory.",
+        "output": "Horns honked amid the hum of traffic.",
+        "type": "generation"
+    },
+    {
+        "input": "The dog barked in sharp yaps.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The clock ticked with a steady rhythm.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a shrill warning'?",
+        "output": "This is Auditory because 'shrill' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Auditory.",
+        "output": "It roared as it smashed against the rocks.",
+        "type": "generation"
+    },
+    {
+        "input": "The horn blared a long blast.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The violin played a mournful melody.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s got a quiet voice'?",
+        "output": "This is Auditory because 'quiet' ties to sound level.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Auditory.",
+        "output": "Leaves whispered in a gentle breeze.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots stomped on the gravel.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The radio crackled with static.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the silence'?",
+        "output": "This is Auditory because 'hear' relates to listening.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a train using Auditory.",
+        "output": "Its whistle wailed through the valley.",
+        "type": "generation"
+    },
+    {
+        "input": "The thunder cracked overhead.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The gate creaked open slowly.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a faint murmur'?",
+        "output": "This is Auditory because 'murmur' implies soft sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bell using Auditory.",
+        "output": "It rang with a sharp, clear ding.",
+        "type": "generation"
+    },
+    {
+        "input": "The tires screeched on the curve.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The sand shifted under my weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m stretching for clarity'?",
+        "output": "This is Kinesthetic because 'stretching' suggests physical effort.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Kinesthetic.",
+        "output": "The wind battered me with fierce gusts.",
+        "type": "generation"
+    },
+    {
+        "input": "The hammer thudded against the wood.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a firm grip'?",
+        "output": "This is Kinesthetic because 'grip' ties to physical hold.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a blanket using Kinesthetic.",
+        "output": "It enveloped me with a heavy, warm press.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice froze my fingers.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The door jammed against my push.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m slipping on ice'?",
+        "output": "This is Kinesthetic because 'slipping' suggests movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It dragged me under with a strong pull.",
+        "type": "generation"
+    },
+    {
+        "input": "The grass brushed my legs.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The couch dipped under my sit.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s pushing limits'?",
+        "output": "This is Kinesthetic because 'pushing' implies force.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a ball using Kinesthetic.",
+        "output": "It bounced against my palm with a sharp smack.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind tugged at my scarf.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The stone rolled under my foot.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m falling into rhythm'?",
+        "output": "This is Kinesthetic because 'falling' suggests motion.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a chair using Kinesthetic.",
+        "output": "It supported me with a solid, steady frame.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost bit my nose.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The rope tightened in my grasp.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a soft step'?",
+        "output": "This is Kinesthetic because 'step' ties to movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a breeze using Kinesthetic.",
+        "output": "It grazed my cheek with a cool touch.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots sank into the mud.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The pillow yielded under my head.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m holding steady'?",
+        "output": "This is Kinesthetic because 'holding' suggests tension.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rug using Kinesthetic.",
+        "output": "It cushioned my feet with a plush feel.",
+        "type": "generation"
+    },
+    {
+        "input": "The ocean carried a salty scent.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells like victory'?",
+        "output": "This is Olfactory because 'smells' ties to scent.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Olfactory.",
+        "output": "The air filled with a sharp, electric tang.",
+        "type": "generation"
+    },
+    {
+        "input": "The flowers wafted a floral perfume.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The valley glowed with amber fields.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The goal shines brightly'?",
+        "output": "This is Visual because 'shines' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a sunset using Visual.",
+        "output": "The sky burned with streaks of crimson and gold.",
+        "type": "generation"
+    },
+    {
+        "input": "The river mirrored the sky’s blue.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a vivid image'?",
+        "output": "This is Visual because 'vivid' suggests clear sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Visual.",
+        "output": "Trees stood in a dense tapestry of green.",
+        "type": "generation"
+    },
+    {
+        "input": "The window framed a golden horizon.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The cliff cast a dark shadow below.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see the danger'?",
+        "output": "This is Visual because 'see' relates to vision.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Visual.",
+        "output": "Its wings sparkled with flashes of silver.",
+        "type": "generation"
+    },
+    {
+        "input": "The neon sign buzzed in bright pink.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The snow glistened under moonlight.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a shadowy figure'?",
+        "output": "This is Visual because 'shadowy' implies dim light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Visual.",
+        "output": "Skyscrapers twinkled in a grid of lights.",
+        "type": "generation"
+    },
+    {
+        "input": "The mist veiled the peaks in gray.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The banner fluttered in bold yellows.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s a radiant star'?",
+        "output": "This is Visual because 'radiant' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a flower using Visual.",
+        "output": "Its petals glowed in a soft peach hue.",
+        "type": "generation"
+    },
+    {
+        "input": "The fireworks exploded in vibrant reds.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The painting shimmered with deep blues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a bright spark'?",
+        "output": "This is Visual because 'bright' suggests light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a river using Visual.",
+        "output": "It glistened like a ribbon of silver.",
+        "type": "generation"
+    },
+    {
+        "input": "The stars pierced the night’s darkness.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The lamp cast a warm yellow glow.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see a clear sign'?",
+        "output": "This is Visual because 'see' and 'clear' tie to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Visual.",
+        "output": "It broke in a frothy, white cascade.",
+        "type": "generation"
+    },
+    {
+        "input": "The dawn shimmered with pastel pinks.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The sunset faded into purple shadows.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a dazzling sight'?",
+        "output": "This is Visual because 'dazzling' suggests brightness.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a mountain using Visual.",
+        "output": "Its peaks rose in rugged, snowy peaks.",
+        "type": "generation"
+    },
+    {
+        "input": "The horizon glowed with orange streaks.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The wind howled through the valley.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His voice boomed loudly'?",
+        "output": "This is Auditory because 'boomed' ties to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Rain pattered against the windows wildly.",
+        "type": "generation"
+    },
+    {
+        "input": "The bell tolled a deep chime.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a loud cry'?",
+        "output": "This is Auditory because 'loud' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Auditory.",
+        "output": "Its trill echoed through the trees.",
+        "type": "generation"
+    },
+    {
+        "input": "The rain tapped on the leaves.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The crowd roared in excitement.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear a soft whisper'?",
+        "output": "This is Auditory because 'hear' relates to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Auditory.",
+        "output": "Traffic buzzed with a constant hum.",
+        "type": "generation"
+    },
+    {
+        "input": "The dog growled in low tones.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The clock chimed every hour.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a sharp whistle'?",
+        "output": "This is Auditory because 'sharp' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Auditory.",
+        "output": "It crashed with a deep, resonant boom.",
+        "type": "generation"
+    },
+    {
+        "input": "The horn sounded a long note.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The violin wailed a sad tune.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s got a quiet tone'?",
+        "output": "This is Auditory because 'quiet' ties to sound level.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Auditory.",
+        "output": "Leaves rustled in a gentle breeze.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots crunched on gravel.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The radio buzzed with static.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the echo'?",
+        "output": "This is Auditory because 'hear' relates to listening.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a train using Auditory.",
+        "output": "Its whistle shrieked through the fog.",
+        "type": "generation"
+    },
+    {
+        "input": "The thunder rumbled in the distance.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The gate slammed shut loudly.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a faint buzz'?",
+        "output": "This is Auditory because 'buzz' implies sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bell using Auditory.",
+        "output": "It rang with a clear, sharp ding.",
+        "type": "generation"
+    },
+    {
+        "input": "The tires screeched to a halt.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The mud clung to my boots.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m stretching my limits'?",
+        "output": "This is Kinesthetic because 'stretching' suggests effort.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Kinesthetic.",
+        "output": "The wind pushed me back with icy force.",
+        "type": "generation"
+    },
+    {
+        "input": "The hammer hit with a solid thump.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a tight grip'?",
+        "output": "This is Kinesthetic because 'grip' ties to hold.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a blanket using Kinesthetic.",
+        "output": "It pressed down with a heavy warmth.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice numbed my hands.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The door resisted my pull.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m slipping on mud'?",
+        "output": "This is Kinesthetic because 'slipping' suggests movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It knocked me over with a forceful push.",
+        "type": "generation"
+    },
+    {
+        "input": "The grass tickled my ankles.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The couch sagged under my weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s pushing through'?",
+        "output": "This is Kinesthetic because 'pushing' implies force.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a ball using Kinesthetic.",
+        "output": "It bounced against my hand with a soft thud.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind tugged at my hat.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The stone rolled under my step.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m falling into step'?",
+        "output": "This is Kinesthetic because 'falling' suggests motion.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a chair using Kinesthetic.",
+        "output": "It held me firmly with a solid base.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost chilled my ears.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The rope strained in my hands.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a soft touch'?",
+        "output": "This is Kinesthetic because 'touch' ties to sensation.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a breeze using Kinesthetic.",
+        "output": "It brushed my face with a cool whisper.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots sank into soft earth.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The pillow compressed under my head.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m holding firm'?",
+        "output": "This is Kinesthetic because 'holding' suggests tension.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rug using Kinesthetic.",
+        "output": "It softened my steps with a plush feel.",
+        "type": "generation"
+    },
+    {
+        "input": "The forest smelled of pine and earth.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells like danger'?",
+        "output": "This is Olfactory because 'smells' ties to scent.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Olfactory.",
+        "output": "The air carried a sharp, ozone bite.",
+        "type": "generation"
+    },
+    {
+        "input": "The flowers wafted a sweet fragrance.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The bakery smelled of fresh bread.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The coffee carried a rich aroma.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This stinks of failure'?",
+        "output": "This is Olfactory because 'stinks' implies a bad smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "The smoke drifted with a bitter scent.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The apple burst with a sweet tang.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like success'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Gustatory.",
+        "output": "The rain hinted at a metallic tang.",
+        "type": "generation"
+    },
+    {
+        "input": "The lemon zinged with sour sharpness.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "The chocolate melted with a bitter edge.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a spicy attitude'?",
+        "output": "This is Gustatory because 'spicy' describes taste.",
+        "type": "explanation"
+    },
+    {
+        "input": "The soup warmed with a salty depth.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "The meadow sparkled with dew drops.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The goal glimmers brightly'?",
+        "output": "This is Visual because 'glimmers' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a sunrise using Visual.",
+        "output": "The horizon glowed with soft pinks and oranges.",
+        "type": "generation"
+    },
+    {
+        "input": "The river reflected the dawn’s colors.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a vivid scene'?",
+        "output": "This is Visual because 'vivid' suggests clear sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Visual.",
+        "output": "Trees stood in a lush canopy of greens.",
+        "type": "generation"
+    },
+    {
+        "input": "The window showed a crimson sunset.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The cliff loomed in dark silhouettes.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see the opportunity'?",
+        "output": "This is Visual because 'see' relates to vision.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Visual.",
+        "output": "Its wings shimmered with hues of blue.",
+        "type": "generation"
+    },
+    {
+        "input": "The neon sign flashed in bright greens.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The snow glittered under the sun.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a shadowy alley'?",
+        "output": "This is Visual because 'shadowy' implies dim light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Visual.",
+        "output": "Skyscrapers sparkled in a web of lights.",
+        "type": "generation"
+    },
+    {
+        "input": "The fog cloaked the mountains in gray.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The banner waved in vivid purples.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s a luminous figure'?",
+        "output": "This is Visual because 'luminous' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a flower using Visual.",
+        "output": "Its petals glowed in a delicate white bloom.",
+        "type": "generation"
+    },
+    {
+        "input": "The fireworks burst in dazzling whites.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The painting shimmered with bright yellows.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a bright flare'?",
+        "output": "This is Visual because 'bright' suggests light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a river using Visual.",
+        "output": "It flowed in a shimmering silver path.",
+        "type": "generation"
+    },
+    {
+        "input": "The stars twinkled in a velvet sky.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The lamp cast a soft blue glow.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see a clear vision'?",
+        "output": "This is Visual because 'see' and 'clear' tie to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Visual.",
+        "output": "It crested in a sparkling, white arc.",
+        "type": "generation"
+    },
+    {
+        "input": "The dawn shimmered with golden light.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The sunset faded into deep violets.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a dazzling view'?",
+        "output": "This is Visual because 'dazzling' suggests brightness.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a mountain using Visual.",
+        "output": "Its peaks rose in snow-capped majesty.",
+        "type": "generation"
+    },
+    {
+        "input": "The horizon glowed with fiery reds.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The wind whistled through the canyon.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His voice echoed loudly'?",
+        "output": "This is Auditory because 'echoed' ties to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Thunder roared over the patter of rain.",
+        "type": "generation"
+    },
+    {
+        "input": "The bell rang a clear chime.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a loud shout'?",
+        "output": "This is Auditory because 'loud' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Auditory.",
+        "output": "Its song rang through the morning air.",
+        "type": "generation"
+    },
+    {
+        "input": "The rain tapped on the roof.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The crowd buzzed with excitement.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear a distant hum'?",
+        "output": "This is Auditory because 'hear' relates to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Auditory.",
+        "output": "Horns blared amid the hum of engines.",
+        "type": "generation"
+    },
+    {
+        "input": "The dog barked in sharp barks.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The clock ticked with steady beats.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a sharp cry'?",
+        "output": "This is Auditory because 'sharp' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Auditory.",
+        "output": "It crashed with a deep, booming roar.",
+        "type": "generation"
+    },
+    {
+        "input": "The horn blared a loud warning.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The violin played a joyful tune.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s got a soft voice'?",
+        "output": "This is Auditory because 'soft' ties to sound level.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Auditory.",
+        "output": "Leaves rustled in a gentle whisper.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots thumped on the path.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The radio crackled with static.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the silence break'?",
+        "output": "This is Auditory because 'hear' relates to listening.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a train using Auditory.",
+        "output": "Its whistle screeched through the night.",
+        "type": "generation"
+    },
+    {
+        "input": "The thunder boomed across the hills.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The gate creaked open slowly.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a faint chime'?",
+        "output": "This is Auditory because 'chime' implies sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bell using Auditory.",
+        "output": "It rang with a crisp, high note.",
+        "type": "generation"
+    },
+    {
+        "input": "The tires squealed on the road.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The snow crunched under my boots.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m stretching for balance'?",
+        "output": "This is Kinesthetic because 'stretching' suggests effort.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Kinesthetic.",
+        "output": "The wind knocked me back with icy force.",
+        "type": "generation"
+    },
+    {
+        "input": "The hammer struck with a heavy thud.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a tight hold'?",
+        "output": "This is Kinesthetic because 'hold' ties to grip.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a blanket using Kinesthetic.",
+        "output": "It pressed down with a warm weight.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice chilled my fingers.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The door stuck against my push.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m slipping on snow'?",
+        "output": "This is Kinesthetic because 'slipping' suggests movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It pulled me under with a strong surge.",
+        "type": "generation"
+    },
+    {
+        "input": "The grass brushed my legs.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The couch dipped under my weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s pushing ahead'?",
+        "output": "This is Kinesthetic because 'pushing' implies force.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a ball using Kinesthetic.",
+        "output": "It bounced against my hand with a soft tap.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind tugged at my coat.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The stone shifted under my foot.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m falling into line'?",
+        "output": "This is Kinesthetic because 'falling' suggests motion.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a chair using Kinesthetic.",
+        "output": "It supported me with a firm, steady hold.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost bit my nose.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The rope tightened in my grip.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a soft step'?",
+        "output": "This is Kinesthetic because 'step' ties to movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a breeze using Kinesthetic.",
+        "output": "It grazed my skin with a cool touch.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots sank into the dirt.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The pillow compressed under my head.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m holding tight'?",
+        "output": "This is Kinesthetic because 'holding' suggests tension.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rug using Kinesthetic.",
+        "output": "It cushioned my feet with a soft pile.",
+        "type": "generation"
+    },
+    {
+        "input": "The market wafted with spice scents.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells like success'?",
+        "output": "This is Olfactory because 'smells' ties to scent.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Olfactory.",
+        "output": "The air carried a sharp, rain-soaked tang.",
+        "type": "generation"
+    },
+    {
+        "input": "The flowers exhaled a sweet aroma.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The bakery smelled of warm dough.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The coffee carried a nutty scent.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This stinks of defeat'?",
+        "output": "This is Olfactory because 'stinks' implies a bad smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "The smoke lingered with a woody whiff.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The orange zinged with sweet juice.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like victory'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Gustatory.",
+        "output": "The rain hinted at a metallic bite.",
+        "type": "generation"
+    },
+    {
+        "input": "The lemon stung with sour zest.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "The chocolate melted with a rich depth.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a bitter tone'?",
+        "output": "This is Gustatory because 'bitter' describes taste.",
+        "type": "explanation"
+    },
+    {
+        "input": "The soup warmed with a savory taste.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "The field shimmered with golden wheat.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The goal shines clearly'?",
+        "output": "This is Visual because 'shines' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a sunrise using Visual.",
+        "output": "The sky bloomed with soft pinks and yellows.",
+        "type": "generation"
+    },
+    {
+        "input": "The river mirrored the sunset’s reds.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a vivid picture'?",
+        "output": "This is Visual because 'vivid' suggests clear sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Visual.",
+        "output": "Trees rose in a dense, green mosaic.",
+        "type": "generation"
+    },
+    {
+        "input": "The window framed a violet dusk.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The cliff stood in sharp silhouette.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see the horizon'?",
+        "output": "This is Visual because 'see' relates to vision.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Visual.",
+        "output": "Its wings flashed with streaks of orange.",
+        "type": "generation"
+    },
+    {
+        "input": "The neon sign glowed in bright blues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The snow sparkled under starlight.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a shadowy path'?",
+        "output": "This is Visual because 'shadowy' implies dim light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Visual.",
+        "output": "Skyscrapers glittered in a network of lights.",
+        "type": "generation"
+    },
+    {
+        "input": "The fog hid the peaks in gray.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The banner waved in vivid greens.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s a luminous beacon'?",
+        "output": "This is Visual because 'luminous' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a flower using Visual.",
+        "output": "Its petals shone in a brilliant yellow bloom.",
+        "type": "generation"
+    },
+    {
+        "input": "The fireworks burst in sparkling whites.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The painting glowed with rich purples.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a bright beacon'?",
+        "output": "This is Visual because 'bright' suggests light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a river using Visual.",
+        "output": "It flowed in a shimmering gold ribbon.",
+        "type": "generation"
+    },
+    {
+        "input": "The stars twinkled in a midnight sky.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The lamp cast a warm orange glow.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see a clear sky'?",
+        "output": "This is Visual because 'see' and 'clear' tie to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Visual.",
+        "output": "It broke in a frothy, white cascade.",
+        "type": "generation"
+    },
+    {
+        "input": "The dawn shimmered with golden hues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The wind roared through the trees.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His voice thundered loudly'?",
+        "output": "This is Auditory because 'thundered' ties to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Rain pounded the roof in a steady rhythm.",
+        "type": "generation"
+    },
+    {
+        "input": "The bell rang a deep toll.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a loud yell'?",
+        "output": "This is Auditory because 'loud' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Auditory.",
+        "output": "Its call echoed through the forest.",
+        "type": "generation"
+    },
+    {
+        "input": "The rain dripped on the leaves.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The crowd shouted in excitement.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear a soft hum'?",
+        "output": "This is Auditory because 'hear' relates to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Auditory.",
+        "output": "Horns honked over the hum of traffic.",
+        "type": "generation"
+    },
+    {
+        "input": "The dog barked in sharp yips.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The clock ticked with steady clicks.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a sharp scream'?",
+        "output": "This is Auditory because 'sharp' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Auditory.",
+        "output": "It crashed with a deep, resonant boom.",
+        "type": "generation"
+    },
+    {
+        "input": "The horn blared a long signal.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The violin played a lively tune.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s got a quiet whisper'?",
+        "output": "This is Auditory because 'quiet' ties to sound level.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Auditory.",
+        "output": "Leaves rustled in a gentle breeze.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots stomped on the ground.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The radio buzzed with static noise.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the quiet'?",
+        "output": "This is Auditory because 'hear' relates to listening.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a train using Auditory.",
+        "output": "Its whistle wailed through the hills.",
+        "type": "generation"
+    },
+    {
+        "input": "The thunder rumbled in the distance.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The gate creaked open slowly.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a faint ring'?",
+        "output": "This is Auditory because 'ring' implies sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bell using Auditory.",
+        "output": "It rang with a clear, sharp tone.",
+        "type": "generation"
+    },
+    {
+        "input": "The tires screeched on the pavement.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The mud stuck to my shoes.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m stretching for reach'?",
+        "output": "This is Kinesthetic because 'stretching' suggests effort.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Kinesthetic.",
+        "output": "The wind pushed me back with cold force.",
+        "type": "generation"
+    },
+    {
+        "input": "The hammer hit with a firm thud.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a tight grasp'?",
+        "output": "This is Kinesthetic because 'grasp' ties to hold.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a blanket using Kinesthetic.",
+        "output": "It pressed down with a soft weight.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice froze my toes.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The door resisted my shove.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m slipping on gravel'?",
+        "output": "This is Kinesthetic because 'slipping' suggests movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It dragged me under with a strong pull.",
+        "type": "generation"
+    },
+    {
+        "input": "The grass tickled my feet.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The couch sagged under my sit.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s pushing boundaries'?",
+        "output": "This is Kinesthetic because 'pushing' implies force.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a ball using Kinesthetic.",
+        "output": "It bounced against my palm with a soft tap.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind tugged at my shirt.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The stone rolled under my step.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m falling into pace'?",
+        "output": "This is Kinesthetic because 'falling' suggests motion.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a chair using Kinesthetic.",
+        "output": "It held me firmly with a steady base.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost chilled my fingers.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The rope tightened in my hands.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a soft tread'?",
+        "output": "This is Kinesthetic because 'tread' ties to movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a breeze using Kinesthetic.",
+        "output": "It brushed my face with a light touch.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots sank into the soil.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The pillow yielded under my head.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m holding steady'?",
+        "output": "This is Kinesthetic because 'holding' suggests tension.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rug using Kinesthetic.",
+        "output": "It cushioned my steps with a plush feel.",
+        "type": "generation"
+    },
+    {
+        "input": "The sea carried a briny scent.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells like risk'?",
+        "output": "This is Olfactory because 'smells' ties to scent.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Olfactory.",
+        "output": "The air thickened with a wet, earthy smell.",
+        "type": "generation"
+    },
+    {
+        "input": "The flowers exuded a floral aroma.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The bakery wafted with sweet dough.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The coffee carried a robust scent.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This stinks of trouble'?",
+        "output": "This is Olfactory because 'stinks' implies a bad smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "The smoke drifted with a smoky whiff.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The grape popped with sweet juice.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like triumph'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Gustatory.",
+        "output": "The rain hinted at a metallic tang.",
+        "type": "generation"
+    },
+    {
+        "input": "The lemon zapped with sour zest.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "The chocolate melted with a rich bite.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a spicy edge'?",
+        "output": "This is Gustatory because 'spicy' describes taste.",
+        "type": "explanation"
+    },
+    {
+        "input": "The soup warmed with a savory flavor.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "The plains shimmered with golden grass.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The goal glows brightly'?",
+        "output": "This is Visual because 'glows' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a sunrise using Visual.",
+        "output": "The sky brightened with soft pinks and golds.",
+        "type": "generation"
+    },
+    {
+        "input": "The river reflected the sunset’s purples.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a vivid memory'?",
+        "output": "This is Visual because 'vivid' suggests clear sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Visual.",
+        "output": "Trees stood in a verdant, green haze.",
+        "type": "generation"
+    },
+    {
+        "input": "The window framed a crimson horizon.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The cliff loomed in dark outlines.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see the skyline'?",
+        "output": "This is Visual because 'see' relates to vision.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Visual.",
+        "output": "Its wings gleamed with streaks of red.",
+        "type": "generation"
+    },
+    {
+        "input": "The neon sign flashed in bright reds.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The snow sparkled under the moon.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a shadowy corner'?",
+        "output": "This is Visual because 'shadowy' implies dim light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Visual.",
+        "output": "Skyscrapers glittered in a constellation of lights.",
+        "type": "generation"
+    },
+    {
+        "input": "The fog veiled the hills in gray.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The banner waved in vivid oranges.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s a radiant light'?",
+        "output": "This is Visual because 'radiant' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a flower using Visual.",
+        "output": "Its petals glowed in a brilliant white bloom.",
+        "type": "generation"
+    },
+    {
+        "input": "The fireworks burst in dazzling yellows.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The painting shimmered with deep greens.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a bright signal'?",
+        "output": "This is Visual because 'bright' suggests light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a river using Visual.",
+        "output": "It flowed in a shimmering blue ribbon.",
+        "type": "generation"
+    },
+    {
+        "input": "The stars twinkled in a clear sky.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The lamp cast a soft purple glow.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see a clear path'?",
+        "output": "This is Visual because 'see' and 'clear' tie to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Visual.",
+        "output": "It broke in a sparkling, white crest.",
+        "type": "generation"
+    },
+    {
+        "input": "The dawn shimmered with golden light.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The wind screamed through the valley.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His voice boomed clearly'?",
+        "output": "This is Auditory because 'boomed' ties to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Rain hammered the roof in a steady beat.",
+        "type": "generation"
+    },
+    {
+        "input": "The bell rang a low chime.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a loud cheer'?",
+        "output": "This is Auditory because 'loud' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Auditory.",
+        "output": "Its call chirped through the dawn.",
+        "type": "generation"
+    },
+    {
+        "input": "The rain pattered on the windows.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The crowd roared with joy.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear a soft tune'?",
+        "output": "This is Auditory because 'hear' relates to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Auditory.",
+        "output": "Horns honked over the buzz of traffic.",
+        "type": "generation"
+    },
+    {
+        "input": "The dog barked in sharp barks.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The clock ticked with steady clicks.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a sharp whistle'?",
+        "output": "This is Auditory because 'sharp' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Auditory.",
+        "output": "It crashed with a deep, booming roar.",
+        "type": "generation"
+    },
+    {
+        "input": "The horn blared a loud blast.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The violin played a sad melody.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s got a quiet voice'?",
+        "output": "This is Auditory because 'quiet' ties to sound level.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Auditory.",
+        "output": "Leaves rustled in a gentle breeze.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots clomped on the path.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The radio crackled with static.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the silence'?",
+        "output": "This is Auditory because 'hear' relates to listening.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a train using Auditory.",
+        "output": "Its whistle screamed through the night.",
+        "type": "generation"
+    },
+    {
+        "input": "The thunder rumbled in the distance.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The gate creaked open slowly.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a faint buzz'?",
+        "output": "This is Auditory because 'buzz' implies sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bell using Auditory.",
+        "output": "It rang with a clear, sharp ding.",
+        "type": "generation"
+    },
+    {
+        "input": "The tires screeched on the road.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The mud pulled at my boots.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m stretching for height'?",
+        "output": "This is Kinesthetic because 'stretching' suggests effort.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Kinesthetic.",
+        "output": "The wind shoved me back with cold force.",
+        "type": "generation"
+    },
+    {
+        "input": "The hammer struck with a solid thud.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a tight hold'?",
+        "output": "This is Kinesthetic because 'hold' ties to grip.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a blanket using Kinesthetic.",
+        "output": "It pressed down with a heavy warmth.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice numbed my fingers.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The door resisted my push.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m slipping on ice'?",
+        "output": "This is Kinesthetic because 'slipping' suggests movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It dragged me under with a strong tug.",
+        "type": "generation"
+    },
+    {
+        "input": "The grass tickled my feet.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The couch sagged under my weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s pushing forward'?",
+        "output": "This is Kinesthetic because 'pushing' implies force.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a ball using Kinesthetic.",
+        "output": "It bounced against my hand with a soft tap.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind tugged at my jacket.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The stone rolled under my step.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m falling into sync'?",
+        "output": "This is Kinesthetic because 'falling' suggests motion.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a chair using Kinesthetic.",
+        "output": "It held me firmly with a steady frame.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost chilled my ears.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The rope tightened in my grip.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a soft step'?",
+        "output": "This is Kinesthetic because 'step' ties to movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a breeze using Kinesthetic.",
+        "output": "It brushed my face with a cool touch.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots sank into the mud.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The pillow yielded under my head.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m holding firm'?",
+        "output": "This is Kinesthetic because 'holding' suggests tension.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rug using Kinesthetic.",
+        "output": "It cushioned my steps with a soft pile.",
+        "type": "generation"
+    },
+    {
+        "input": "The forest exuded a pine scent.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells like victory'?",
+        "output": "This is Olfactory because 'smells' ties to scent.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Olfactory.",
+        "output": "The air thickened with a sharp, wet smell.",
+        "type": "generation"
+    },
+    {
+        "input": "The flowers wafted a sweet fragrance.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The bakery smelled of fresh dough.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The coffee carried a rich aroma.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This stinks of deceit'?",
+        "output": "This is Olfactory because 'stinks' implies a bad smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "The smoke lingered with a bitter whiff.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The peach burst with sweet juice.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like success'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Gustatory.",
+        "output": "The rain hinted at a metallic tang.",
+        "type": "generation"
+    },
+    {
+        "input": "The lemon zapped with sour zest.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "The chocolate melted with a rich bite.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a spicy vibe'?",
+        "output": "This is Gustatory because 'spicy' describes taste.",
+        "type": "explanation"
+    },
+    {
+        "input": "The soup warmed with a savory depth.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "The hills glowed with amber sunlight.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'The goal shines ahead'?",
+        "output": "This is Visual because 'shines' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a sunrise using Visual.",
+        "output": "The sky brightened with soft oranges and pinks.",
+        "type": "generation"
+    },
+    {
+        "input": "The river mirrored the sunset’s blues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a vivid scene'?",
+        "output": "This is Visual because 'vivid' suggests clear sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Visual.",
+        "output": "Trees rose in a dense, green canopy.",
+        "type": "generation"
+    },
+    {
+        "input": "The window framed a golden dawn.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The cliff stood in sharp shadows.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see the peak'?",
+        "output": "This is Visual because 'see' relates to vision.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Visual.",
+        "output": "Its wings flashed with streaks of yellow.",
+        "type": "generation"
+    },
+    {
+        "input": "The neon sign blinked in bright whites.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The snow sparkled under sunlight.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a shadowy nook'?",
+        "output": "This is Visual because 'shadowy' implies dim light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Visual.",
+        "output": "Skyscrapers glittered in a maze of lights.",
+        "type": "generation"
+    },
+    {
+        "input": "The fog hid the mountains in gray.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The banner waved in vivid reds.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s a radiant glow'?",
+        "output": "This is Visual because 'radiant' ties to light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a flower using Visual.",
+        "output": "Its petals shone in a brilliant pink bloom.",
+        "type": "generation"
+    },
+    {
+        "input": "The fireworks burst in sparkling blues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The painting shimmered with rich greens.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a bright beacon'?",
+        "output": "This is Visual because 'bright' suggests light.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a river using Visual.",
+        "output": "It flowed in a shimmering silver path.",
+        "type": "generation"
+    },
+    {
+        "input": "The stars twinkled in a dark sky.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The lamp cast a soft yellow glow.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I see a clear sign'?",
+        "output": "This is Visual because 'see' and 'clear' tie to sight.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Visual.",
+        "output": "It broke in a frothy, white crest.",
+        "type": "generation"
+    },
+    {
+        "input": "The dawn shimmered with golden hues.",
+        "output": "Visual",
+        "type": "example"
+    },
+    {
+        "input": "The wind howled through the hills.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'His voice roared loudly'?",
+        "output": "This is Auditory because 'roared' ties to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Auditory.",
+        "output": "Rain pounded the roof in a steady rhythm.",
+        "type": "generation"
+    },
+    {
+        "input": "The bell rang a deep chime.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a loud call'?",
+        "output": "This is Auditory because 'loud' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bird using Auditory.",
+        "output": "Its song chirped through the morning.",
+        "type": "generation"
+    },
+    {
+        "input": "The rain tapped on the glass.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The crowd cheered with excitement.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear a soft note'?",
+        "output": "This is Auditory because 'hear' relates to sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a city using Auditory.",
+        "output": "Horns blared over the hum of traffic.",
+        "type": "generation"
+    },
+    {
+        "input": "The dog barked in sharp yips.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The clock ticked with steady beats.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'That’s a sharp cry'?",
+        "output": "This is Auditory because 'sharp' describes sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Auditory.",
+        "output": "It crashed with a deep, booming roar.",
+        "type": "generation"
+    },
+    {
+        "input": "The horn blared a loud alert.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The violin played a joyful melody.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s got a quiet tone'?",
+        "output": "This is Auditory because 'quiet' ties to sound level.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a forest using Auditory.",
+        "output": "Leaves rustled in a gentle breeze.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots stomped on the path.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The radio crackled with static.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I hear the quiet'?",
+        "output": "This is Auditory because 'hear' relates to listening.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a train using Auditory.",
+        "output": "Its whistle wailed through the valley.",
+        "type": "generation"
+    },
+    {
+        "input": "The thunder rumbled in the distance.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The gate creaked open slowly.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'It’s a faint hum'?",
+        "output": "This is Auditory because 'hum' implies sound.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a bell using Auditory.",
+        "output": "It rang with a sharp, clear ding.",
+        "type": "generation"
+    },
+    {
+        "input": "The tires squealed on the road.",
+        "output": "Auditory",
+        "type": "example"
+    },
+    {
+        "input": "The snow crunched under my feet.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m stretching for height'?",
+        "output": "This is Kinesthetic because 'stretching' suggests effort.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Kinesthetic.",
+        "output": "The wind pushed me back with icy force.",
+        "type": "generation"
+    },
+    {
+        "input": "The hammer struck with a solid thud.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a tight grip'?",
+        "output": "This is Kinesthetic because 'grip' ties to hold.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a blanket using Kinesthetic.",
+        "output": "It pressed down with a warm weight.",
+        "type": "generation"
+    },
+    {
+        "input": "The ice numbed my toes.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The door resisted my pull.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m slipping on ice'?",
+        "output": "This is Kinesthetic because 'slipping' suggests movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a wave using Kinesthetic.",
+        "output": "It dragged me under with a strong tug.",
+        "type": "generation"
+    },
+    {
+        "input": "The grass tickled my feet.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The couch sagged under my weight.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'She’s pushing forward'?",
+        "output": "This is Kinesthetic because 'pushing' implies force.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a ball using Kinesthetic.",
+        "output": "It bounced against my hand with a soft tap.",
+        "type": "generation"
+    },
+    {
+        "input": "The wind tugged at my scarf.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The stone rolled under my step.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m falling into step'?",
+        "output": "This is Kinesthetic because 'falling' suggests motion.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a chair using Kinesthetic.",
+        "output": "It held me firmly with a steady base.",
+        "type": "generation"
+    },
+    {
+        "input": "The frost chilled my fingers.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The rope tightened in my grip.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a soft tread'?",
+        "output": "This is Kinesthetic because 'tread' ties to movement.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a breeze using Kinesthetic.",
+        "output": "It brushed my face with a cool touch.",
+        "type": "generation"
+    },
+    {
+        "input": "The boots sank into the mud.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "The pillow yielded under my head.",
+        "output": "Kinesthetic",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'I’m holding steady'?",
+        "output": "This is Kinesthetic because 'holding' suggests tension.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a rug using Kinesthetic.",
+        "output": "It cushioned my steps with a soft pile.",
+        "type": "generation"
+    },
+    {
+        "input": "The ocean carried a salty aroma.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This smells like triumph'?",
+        "output": "This is Olfactory because 'smells' ties to scent.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Olfactory.",
+        "output": "The air filled with a sharp, wet tang.",
+        "type": "generation"
+    },
+    {
+        "input": "The flowers wafted a sweet perfume.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The bakery smelled of warm bread.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The coffee carried a nutty scent.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This stinks of failure'?",
+        "output": "This is Olfactory because 'stinks' implies a bad smell.",
+        "type": "explanation"
+    },
+    {
+        "input": "The smoke drifted with a woody whiff.",
+        "output": "Olfactory",
+        "type": "example"
+    },
+    {
+        "input": "The apple burst with sweet juice.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'This tastes like victory'?",
+        "output": "This is Gustatory because 'tastes' ties to flavor.",
+        "type": "explanation"
+    },
+    {
+        "input": "Describe a storm using Gustatory.",
+        "output": "The rain hinted at a metallic bite.",
+        "type": "generation"
+    },
+    {
+        "input": "The lemon zapped with sour zest.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "The chocolate melted with a rich depth.",
+        "output": "Gustatory",
+        "type": "example"
+    },
+    {
+        "input": "What modality is 'He’s got a spicy edge'?",
+        "output": "This is Gustatory because 'spicy' describes taste.",
+        "type": "explanation"
+    },
+    {
+        "input": "The soup warmed with a savory flavor.",
+        "output": "Gustatory",
+        "type": "example"
+    }
+]
+
