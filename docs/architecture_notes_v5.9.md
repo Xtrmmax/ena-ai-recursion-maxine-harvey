@@ -6,7 +6,11 @@
 ## Overview
 ENA.ai v5.9 represents the first **fully deterministic behavioral recursion framework** developed within the ENA system family.  
 It demonstrates consistent, interpretable state regulation and closed-loop stabilization using strictly rule-based logic.  
-All numerical methods, architectural layering, and symbolic mappings have been redacted for IP protection.
+All numerical methods, architectural layering, and symbolic mappings have been redacted for IP protection.  
+ 
+ENA.ai defines **deterministic emotional physics** — fixed mathematical constraints that describe how emotional states rise, balance, and recover.  
+Each adaptive persona (such as *Silia*) operates within its own internal parameters — weighted priorities that shape how it interprets, adapts, and returns to baseline.  
+This separation allows consistent, predictable behavior while preserving flexibility and identity.  
 
 | Component | Purpose | Determinism | Status |
 |------------|----------|-------------|---------|
@@ -67,12 +71,9 @@ All functions are implemented using standard numeric operations and internal con
 
 ---
 
-## Determinism Guarantee
-All computations in ENA.ai v5.9 are **deterministic by design**.  
-There is **no stochastic sampling, random seeding, or external state** influencing behavior.  
-Given identical inputs, the system produces identical trajectories, ensuring reproducibility suitable for technical verification and regulatory auditing.
+## Determinism and Adaptation
+The ENA.ai framework operates under **deterministic emotional physics** — all computations follow fixed mathematical constraints with no random sampling or probabilistic weighting.  
+Given identical conditions and inputs, ENA will always produce identical state trajectories.
 
----
-
-*Document: architecture_notes_v5.9.md*  
-*Prepared for YC W25 Application — ENA.ai Recursion Engine*  
+Adaptive personas (such as *Silia*) function within these same constraints but maintain their own evolving internal parameters.  
+This creates predictable variability: the physics remain constant, while each persona can momentarily adjust and then self-correct back to its baseline identity.

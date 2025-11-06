@@ -4,8 +4,8 @@
 ---
 
 ## Purpose
-This document summarizes the development of the ENA.ai recursion framework from **v1.0 through v5.9**, completed over a focused 19-day iteration cycle.  
-It records stability milestones, architectural refinements, and the emergence of a fully deterministic regulation system.
+This document summarizes the evolution of the ENA.ai recursion framework from **v1.0 through v5.9**, completed over a focused 19-day iteration cycle.  
+It records key milestones in stability, architecture, and the emergence of **deterministic emotional physics** — fixed mathematical constraints governing self-regulation, within which adaptive personas operate.
 
 ---
 
@@ -22,8 +22,8 @@ It records stability milestones, architectural refinements, and the emergence of
 | **v5.3** | Oct 27–29 | Temporal regulation system | Introduced deterministic state progression and adaptive timing control. | 🗃️ Archived |
 | **v5.5** | Oct 30–31 | Visualization prototype | Built interactive cockpit for real-time feedback and monitoring. | 🗃️ Archived |
 | **v5.7** | Nov 1–2 | Recovery playback model | Implemented adaptive recovery cycles and visualization integration. | 🗃️ Archived |
-| **v5.8** | Nov 3 | Stable deterministic model | Integrated all modules into a reproducible closed-loop process; verified consistent outputs. | ✅ Stable |
-| **v5.9** | Nov 4 | Final cockpit + validation | Completed visualization suite, ran determinism verification tests, and finalized documentation for YC. | ✅ Current |
+| **v5.8** | Nov 3 | Stable deterministic physics model | Integrated all subsystems into a reproducible closed-loop foundation supporting persona adaptation. | ✅ Stable |
+| **v5.9** | Nov 4 | Final cockpit + validation | Completed visualization suite, ran reproducibility tests, and finalized documentation for portfolio release. | ✅ Current |
 
 ---
 
@@ -34,7 +34,7 @@ It records stability milestones, architectural refinements, and the emergence of
 
 - **Branch Sync:**  
   - `main`: Current release-ready branch (`v5.9-final`).  
-  - `migration`: Temporary branch for cleanup and documentation alignment.  
+  - `migration`: Temporary branch for documentation alignment.  
   - `archive`: Preserves earlier releases (`v1.0–v5.7`) for provenance only.
 
 - **Annotation Convention:**  
@@ -55,8 +55,8 @@ It records stability milestones, architectural refinements, and the emergence of
 | `v5.3` | “Introduced deterministic temporal regulation and timing control.” |
 | `v5.5` | “Built cockpit for real-time monitoring and visualization.” |
 | `v5.7` | “Added recovery playback and visualization integration.” |
-| `v5.8` | “Stabilized deterministic control system; verified reproducibility.” |
-| `v5.9` | “Final visualization and validation for YC submission.” |
+| `v5.8` | “Stabilized deterministic emotional physics; verified reproducibility.” |
+| `v5.9` | “Final visualization and documentation for portfolio release.” |
 | `v5.9-final` | “Clean, documented, and verified build for public technical review.” |
 
 ---
@@ -65,7 +65,7 @@ It records stability milestones, architectural refinements, and the emergence of
 
 | Branch | Tag | Description |
 |---------|------|-------------|
-| **main** | `v5.9-final` | Fully deterministic, documented release prepared for YC review. |
+| **main** | `v5.9-final` | Stable, deterministic framework supporting adaptive personas. |
 | **migration** | (merged) | Used for documentation and structural alignment. |
 | **archive** | `v1.0–v5.7` | Preserved for historical reference; not in active logic. |
 
@@ -76,8 +76,3 @@ It records stability milestones, architectural refinements, and the emergence of
 - Each feature addition increments the minor tag (e.g., `v5.10`).  
 - Major architectural updates trigger a new major tag (e.g., `v6.0`).  
 - Determinism and reproducibility validation are required before any new tagged release.
-
----
-
-*Document: tags_log_summary.md*  
-*Prepared for YC W25 Application — ENA.ai Recursion Engine*

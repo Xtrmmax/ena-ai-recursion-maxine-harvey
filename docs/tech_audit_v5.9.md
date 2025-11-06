@@ -6,7 +6,10 @@
 ## Purpose
 This document summarizes the verified structure, reliability checks, and development practices used to build **ENA.ai v5.9**.  
 The system represents a **closed-loop deterministic framework** capable of producing consistent, explainable results from identical inputs.  
-All proprietary architectural logic, mathematical formulations, and state-handling details have been withheld for confidentiality.
+All proprietary architectural logic, mathematical formulations, and state-handling details have been withheld for confidentiality.  
+
+ENA.ai establishes **deterministic emotional physics** — a set of fixed mathematical constraints that govern how internal states evolve and recover.  
+Personas (like *Silia*) operate adaptively within those constraints, maintaining a consistent emotional identity while allowing short-term flexibility during recovery or stress conditions.  
 
 ---
 
@@ -55,26 +58,25 @@ No stochastic, sampling, or probabilistic components are used in runtime executi
 ## Known Improvements / Next Steps
 | Area | Description | Priority |
 |------|--------------|-----------|
-| **Startup Latency** | Minor delay during lexical-cache initialization | Low |
-| **Expanded Visualization** | Add comparative playback across instances | Medium |
-| **System Tuning** | Optional refinement of timing coefficients for smoother regulation | Medium |
-| **External Interface Module** | Planned post-YC integration for interoperability | Medium |
+| **Persona Changes** | Core files need to be updated for switching betweeen personas| High|
+| **Module Additions** | 4 additional modules still to be programmed for full personality capacity | High|
+| **Expanded Visualization** | Add comparative playback across personas | Medium |
+| **System Tuning** | Refinement for improved context understanding | Medium |
 
 ---
 
-## Determinism Guarantee
-All computations are **deterministic by design**:  
+## Deterministic Behavior
+All computations in ENA.ai are **deterministic by design**:  
 - No random sampling, probabilistic weighting, or external state.  
-- Every numeric path is fixed and reproducible.  
-- Identical input sequences always produce identical output trajectories.  
+- Every numeric path follows fixed mathematical constraints.  
+- Given identical conditions, the same inputs always yield the same outcomes.
+
+Adaptive personas (such as *Silia*) operate within these fixed constraints but maintain their own internal balances.  
+Their parameters—like emotional priorities or recovery levels—can shift temporarily, creating realistic variation within deterministic bounds.  
+Each persona always returns to its own baseline pattern, preserving identity and continuity.
 
 ---
 
 ## Summary
 ENA.ai v5.9 demonstrates a **mathematically grounded, fully reproducible closed-loop system** built through deterministic computational design.  
-Its compact footprint, transparency, and validated reproducibility meet YC’s technical-credibility standards while maintaining full protection of proprietary intellectual property.
-
----
-
-*Document : tech_audit_v5.9.md*  
-*Prepared for YC W25 Application — ENA.ai Recursion Engine*
+The system proves that emotional intelligence in AI can be both interpretable and protected,  precise in its logic, but personal in its behavior.
