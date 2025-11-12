@@ -5,7 +5,7 @@
 
 ## Purpose
 This document summarizes the evolution of the ENA.ai recursion framework from **v1.0 through v5.9**, completed over a focused 19-day iteration cycle.  
-It records key milestones in stability, architecture, and the emergence of **deterministic emotional physics** — fixed mathematical constraints governing self-regulation, within which adaptive personas operate.
+It records key milestones in stability, architecture, and the emergence of **deterministic emotional physics**, fixed mathematical constraints governing self-regulation, within which adaptive personas operate.
 
 ---
 
