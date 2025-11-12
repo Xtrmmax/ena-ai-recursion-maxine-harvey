@@ -1,5 +1,4 @@
 # ENA.ai Technical Audit — Version 5.9  
-*(Deterministic Systems Verification Report)*  
 
 ---
 
@@ -8,7 +7,7 @@ This document summarizes the verified structure, reliability checks, and develop
 The system represents a **closed-loop deterministic framework** capable of producing consistent, explainable results from identical inputs.  
 All proprietary architectural logic, mathematical formulations, and state-handling details have been withheld for confidentiality.  
 
-ENA.ai establishes **deterministic emotional physics** — a set of fixed mathematical constraints that govern how internal states evolve and recover.  
+ENA.ai establishes **deterministic emotional physics**, a set of fixed mathematical constraints that govern how internal states evolve and recover.  
 Personas (like *Silia*) operate adaptively within those constraints, maintaining a consistent emotional identity while allowing short-term flexibility during recovery or stress conditions.  
 
 ---
@@ -58,8 +57,7 @@ No stochastic, sampling, or probabilistic components are used in runtime executi
 ## Known Improvements / Next Steps
 | Area | Description | Priority |
 |------|--------------|-----------|
-| **Persona Changes** | Core files need to be updated for switching betweeen personas| High|
-| **Module Additions** | 4 additional modules still to be programmed for full personality capacity | High|
+| **Module Additions** | Additional modules still to be programmed for full personality capacity | High|
 | **Expanded Visualization** | Add comparative playback across personas | Medium |
 | **System Tuning** | Refinement for improved context understanding | Medium |
 

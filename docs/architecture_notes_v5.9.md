@@ -1,21 +1,20 @@
 # ENA.ai Architecture Notes — Version 5.9  
-*(Determinism as Design. Regulation as Process.)*  
 
 ---
 
 ## Overview
-ENA.ai v5.9 represents the first **fully deterministic behavioral recursion framework** developed within the ENA system family.  
+ENA.ai v5.9 represents the first **fully deterministic behavioral recursion framework**.  
 It demonstrates consistent, interpretable state regulation and closed-loop stabilization using strictly rule-based logic.  
 All numerical methods, architectural layering, and symbolic mappings have been redacted for IP protection.  
  
-ENA.ai defines **deterministic emotional physics** — fixed mathematical constraints that describe how emotional states rise, balance, and recover.  
-Each adaptive persona (such as *Silia*) operates within its own internal parameters — weighted priorities that shape how it interprets, adapts, and returns to baseline.  
+ENA.ai defines **deterministic emotional physics**, fixed mathematical constraints that describe how emotional states rise, balance, and recover.  
+Each adaptive persona (such as *Silia*) operates within its own internal parameters;  weighted priorities that shape how it interprets, adapts, and returns to baseline.  
 This separation allows consistent, predictable behavior while preserving flexibility and identity.  
 
 | Component | Purpose | Determinism | Status |
 |------------|----------|-------------|---------|
 | **Core Engine** | Manages closed recursion cycles and internal state transitions. | ✅ | Stable |
-| **Temporal Module** | Regulates timing, recovery pacing, and convergence consistency. | ✅ | Stable |
+| **Adaptive State** | Regulates timing, recovery pacing, and convergence consistency. | ✅ | Stable |
 | **Input Processor** | Converts structured inputs into normalized internal coordinates. | ✅ | Stable |
 | **State Mapper** | Categorizes internal conditions into interpretable classes. | ✅ | Stable |
 | **Visualization Suite** | Displays deterministic progressions and playback for analysis. | ✅ | Stable |
@@ -67,7 +66,6 @@ All functions are implemented using standard numeric operations and internal con
 | **v5.8** | Stable deterministic recursion core validated for consistency. | Active |
 | **v5.9** | Final visualization and verification release for YC. | ✅ Current |
 
-> **Note:** The `future_expansions/` directory was relocated to separate all experimental or LLM-integrated modules from the deterministic runtime core.
 
 ---
 
