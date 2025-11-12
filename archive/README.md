@@ -6,7 +6,7 @@
 ## Overview
 This archive contains early prototype work that established the conceptual and technical foundations for **ENA.ai Recursion**, the deterministic emotional regulation engine developed later.
 
-Each archived project represents a learning milestone — moving from **model fine-tuning** and **symbolic behavioral systems** toward the **rule-based emotional geometry** now powering ENA.ai.
+Each archived project represents a learning milestone moving from **model fine-tuning** and **symbolic behavioral systems** toward the **rule-based emotional geometry** now powering ENA.ai.
 
 ---
 
