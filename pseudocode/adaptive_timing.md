@@ -1,6 +1,4 @@
-# Adaptive Timing (Pseudocode)
+# Adaptive Timing Overview
+This component ensures that the system’s internal dynamics adjust smoothly over time rather than shifting at fixed intervals. It interprets the passage of time as an influence on how emotional and relational states evolve, supporting natural continuity and responsiveness within the model.
 
-Input: prior state, elapsed interval
-Compute rate-of-change modifier
-Apply timing coefficient to next update cycle
-Store current timestamp and return adjusted values
+This subsystem maintains continuity and coherence within the model’s evolving processes. It uses protected internal logic to ensure system responses remain balanced and contextually consistent over time.
