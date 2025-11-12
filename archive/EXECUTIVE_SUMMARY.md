@@ -4,11 +4,11 @@
 ---
 
 ## Overview
-This portfolio documents my transition from a non-technical founder with minimal coding experience to independently building functional AI systems — from fine-tuning a large model to designing a deterministic behavioral engine.
+This portfolio documents my transition from a non-technical founder with minimal coding experience to independently building functional AI systems; from fine-tuning a large model to designing a deterministic behavioral engine.
 
 > Before 2025, I had never fine-tuned a model or built anything in Python beyond Day 8 of “100 Days of Code.”  
 > Using “vibe coding” and iterative debugging with AI assistants, I set up my local environment, trained a custom model, and later engineered a calendar system with over ten interdependent mathematical mechanisms.  
-> I still don’t know all the technical terminology — but I know how to structure problems, build momentum, and make complex systems work.
+> I still don’t know all the technical terminology but I know how to structure problems, build momentum, and make complex systems work.
 
 ---
 
@@ -53,4 +53,3 @@ Through persistence and structured experimentation, I developed a foundation str
 ---
 
 *Document: `archive/EXECUTIVE_SUMMARY.md`*  
-*Prepared for YC W25 Application — Maxine Harvey*
