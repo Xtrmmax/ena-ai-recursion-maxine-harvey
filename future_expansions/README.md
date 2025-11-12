@@ -1,10 +1,10 @@
 # ENA.ai — Future Expansions  
-*(Public Roadmap — YC Portfolio Version)*  
+*(Public Roadmap)
 
 ---
 
 ## Overview
-ENA.ai v5.9 demonstrates a fully functional, deterministic prototype built in just 19 days — proof that emotional self-regulation and personality stability can be modeled through **math-based reasoning**.  
+ENA.ai v5.9 demonstrates a fully functional, deterministic prototype built in just 19 days, proof that emotional self-regulation and personality stability can be modeled through **math-based reasoning**.  
 The next stage focuses on transforming this foundation into a **conversational system** that can interact naturally, build rapport, and maintain consistent personality across dialogue.
 Our ultimate objective is to contribute to the development of human aligned AGI that can simulate not mimic human emotions. 
 
@@ -83,4 +83,3 @@ This document outlines only public, high-level milestones.
 ---
 
 *Document: /future_expansions/README.md*  
-*Prepared for YC W25 Application — ENA.ai Recursion Engine (Public Edition)*

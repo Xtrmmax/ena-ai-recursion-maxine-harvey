@@ -8,12 +8,12 @@ A deterministic system that models emotional self-regulation through mathematica
 ---
 
 ## Overview
-ENA.ai defines **deterministic emotional physics** — a set of fixed mathematical constraints that describe how emotional states rise, balance, and recover.  
-These constraints never change, but each adaptive persona (like *Silia*) operates within its own internal parameters — weighted emotional priorities that shape how it interprets and responds.  
+ENA.ai defines **deterministic emotional physics**, a set of fixed mathematical constraints that describe how emotional states rise, balance, and recover.  
+These constraints never change, but each adaptive persona (like *Silia*) operates within its own internal parameters, weighted emotional priorities that shape how it interprets and responds.  
 A persona can flex momentarily under pressure or during recovery, yet always returns to its own baseline balance, preserving identity and continuity.
 
 The full working core runs in under **1,000 lines of Python** and is observable in real time.  
-Version **5.9** was built from concept to stability in **19 days** — a compact, deterministic prototype that demonstrates emotion as geometry and regulation as math.
+Version **5.9** was built from concept to stability in **19 days**,  a compact, deterministic prototype that demonstrates emotion as geometry and regulation as math.
 
 ---
 

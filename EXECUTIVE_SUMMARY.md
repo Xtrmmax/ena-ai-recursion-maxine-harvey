@@ -4,11 +4,11 @@
 
 ---
 ## Overview
-ENA.ai defines deterministic emotional physics — a set of fixed mathematical constraints that describe how emotional states rise, balance, and recover.
-These constraints never change, but each adaptive persona (like Silia) operates within its own internal parameters — weighted emotional priorities that shape how it interprets and responds.
+ENA.ai defines deterministic emotional physics, a set of fixed mathematical constraints that describe how emotional states rise, balance, and recover.
+These constraints never change, but each adaptive persona (like Silia and Stren) operates within its own internal parameters, weighted emotional priorities that shape how it interprets and responds.
 A persona can flex momentarily under pressure or during recovery, yet always returns to its own baseline balance, preserving identity and continuity.
 
-This is **emotion as geometry** and **regulation as math** — a closed emotional feedback system, not a generative prompt chain.  
+This is **emotion as geometry** and **regulation as math**, a closed emotional feedback system, not a generative prompt chain.  
 The working core runs in under ~1,000 lines of Python and is fully observable in real time.
 
 ---
@@ -17,7 +17,7 @@ The working core runs in under ~1,000 lines of Python and is fully observable in
 A compact, modular system that interprets input signals, advances emotional state along a defined mathematical path, and visualizes recovery.  
 It’s deterministic by design: the governing rules always behave predictably, though each persona applies them through its own perspective and state.
 
-Unlike a chatbot, ENA doesn’t imitate empathy — it models regulation directly, processing, stabilizing, and recovering through defined logic rather than text prediction.
+Unlike a chatbot, ENA doesn’t imitate empathy, it models regulation directly, processing, stabilizing, and recovering through defined logic rather than text prediction.
 
 ---
 
