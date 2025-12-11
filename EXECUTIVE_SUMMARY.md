@@ -25,6 +25,7 @@ Unlike a chatbot, ENA doesn’t imitate empathy, it models regulation directly, 
 - **v1.0 → v4.8:** built Oct 17 – 24 2025 (8 days)  
 - **v5.0 → v5.9:** built Oct 25 – Nov 4 2025 (11 days)  
 **Total:** 19 days from first prototype to stable demo (v5.9)
+- **V6.0** built Dec 5-10, integration of ENA to ChatGPT 4o mini
 
 ---
 
